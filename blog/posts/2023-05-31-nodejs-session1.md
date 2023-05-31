@@ -1,15 +1,15 @@
 ---
 layout: Post
-title: Giới thiệu về dự án
-subtitle: Cùng mình tìm hiểu về dự án nhé ^^
+title: Lập trình NodeJS
+subtitle: Tìm hiểu về NodeJS và xử lý request đơn giản
 author: Theanishtar
-date: 2022-02-21
+date: 2023-05-31
 useHeaderImage: true
 headerImage: /img/in-post/2022-02-21/header.jpeg
 headerMask: rgb(67, 65, 47, .2)
 permalinkPattern: /post/:year/:month/:day/:slug/
 tags:
-  - Mục đích
+  - NodeJS
 ---
 
 Dự án được phát triển với mục đích chia sẽ những kiến thức mình có được, sẽ không nhiều đâu nhưng mình rất vui nếu nó phù hợp và có ích với bạn.

@@ -5,7 +5,7 @@ links:
   - title: 我自己能用就完事了
     items:
       - sitename: Flint
-        url: /nodejs.md
+        url: /post/2022/02/21/new-year-2022/
         img: /img/links/flint.svg
         desc: 山寨版 PyTorch
       - sitename: torchop
