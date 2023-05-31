@@ -1,0 +1,36 @@
+{
+  "name": "renovamen-blog",
+  "private": true,
+  "scripts": {
+    "clean": "rimraf blog/.vuepress/.temp blog/.vuepress/.cache blog/.vuepress/dist",
+    "dev": "vuepress-cli dev blog --clean-cache",
+    "build": "pnpm clean && vuepress-cli build blog --clean-cache",
+    "serve": "serve blog/.vuepress/dist"
+  },
+  "devDependencies": {
+    "@vuepress/bundler-vite": "2.0.0-beta.49",
+    "@vuepress/cli": "2.0.0-beta.49",
+    "@vuepress/client": "2.0.0-beta.49",
+    "oh-vue-icons": "^1.0.0-rc3",
+    "rimraf": "^3.0.2",
+    "sass-loader": "^13.0.2",
+    "serve": "^14.0.1",
+    "vue": "^3.2.36",
+    "vuepress": "2.0.0-beta.49",
+    "vuepress-theme-gungnir": "2.0.0-alpha.26"
+  },
+  "engines": {
+    "node": ">=14",
+    "pnpm": ">=7"
+  },
+  "pnpm": {
+    "peerDependencyRules": {
+      "ignoreMissing": [
+        "webpack"
+      ]
+    }
+  },
+  "dependencies": {
+    "vuepress-plugin-giscus": "^2.0.0-alpha.26"
+  }
+}
