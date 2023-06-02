@@ -1,0 +1,1 @@
+export const data = JSON.parse("{\"key\":\"v-1b913e06\",\"path\":\"/tags/restapi/\",\"title\":\"RestAPI | Tags\",\"lang\":\"en-US\",\"frontmatter\":{\"title\":\"RestAPI | Tags\",\"layout\":\"Tags\",\"blog\":{\"type\":\"category\",\"name\":\"RestAPI\",\"key\":\"tag\"}},\"excerpt\":\"\",\"headers\":[],\"git\":{},\"filePathRelative\":null}")
