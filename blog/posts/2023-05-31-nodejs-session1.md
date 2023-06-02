@@ -1,41 +1,32 @@
 ---
 layout: Post
-title: Lập trình NodeJS
-subtitle: Tìm hiểu về NodeJS và xử lý request đơn giản
+title: Tìm hiểu về NodeJS và xử lý request đơn giản
+subtitle: Lập trình NodeJS
 author: Theanishtar
 date: 2023-05-31
 useHeaderImage: true
-headerImage: /img/in-post/2022-02-21/header.jpeg
+headerImage: /img/in-post/2020-08-22/header.jpg
 headerMask: rgb(67, 65, 47, .2)
 permalinkPattern: /post/:year/:month/:day/:slug/
 tags:
   - NodeJS
 ---
 
-Dự án được phát triển với mục đích chia sẽ những kiến thức mình có được, sẽ không nhiều đâu nhưng mình rất vui nếu nó phù hợp và có ích với bạn.
+NodeJS là một thư viện (đôi khi còn được xem như một framework) của ngôn ngữ lập trình JavaScript.
+Cùng với ExpressJS, MongoDB. NodeJS có thể tạo ra một webapp fullstack như **MEAN** hay **MERN**  một cách đơn giản và nhanh chóng.
+
 
 <!-- more -->
 
 ---
-Dự án được phát triển với mục đích chia sẽ kiến thức hữu ích cho cộng đồng "coder" tại Việt Nam. Kiến thức sẽ được mình cập nhật liên tục theo xu hướng công nghệ của thị trường
+NodeJS được thịnh hành dạo gần đây và được rất nhiều lập trình viên ưa chuộng, với cú pháp ngắn gọn, đơn giản NodeJS ngày càng được cộng đồng phát triển và học tập một cách mạnh mẻ.
 
-## Mục đích ra đời
-
-Khi còn là sinh viên năm nhất mình đã thấy rất nhiều bạn theo không kịp các môn chuyên ngành, mình đã tổ chức một nhóm hỗ trợ nhau học tập. 
-Sở thích của mình là được học tập và phát triển những thứ hữu ích cho cộng đồng
-
-<!-- <img src="/img/in-post/2022-02-21/zhihu-1.png" width="375px" alt="zhihu-1" /> -->
+Khi học NodeJS bạn có thể phát triển các webapp phía BackEnd bằng NestJS (một framework của NodeJS)
 
 
+## Nội dung chính
 
-## Công nghệ sử dụng
-Website được mình thiết kế dựa trên Frameword VueJS và themeleaf Gungnir.
-
-
-## Phát triển dài hạn
-
-Mình sẽ cập nhật liên tục và phát triển thêm. 
-Website không phù hợp lắm cho điện thoại di động, mình sẽ khắc phục tình trạng này trong tương lai
+	Chưa cập nhật
 
 <!-- 
 <script src="https://giscus.app/client.js"

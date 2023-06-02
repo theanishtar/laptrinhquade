@@ -1,0 +1,1 @@
+const a=JSON.parse('{"key":"v-79fa40a2","path":"/tags/java-core/","title":"Java Core | Tags","lang":"en-US","frontmatter":{"title":"Java Core | Tags","layout":"Tags","blog":{"type":"category","name":"Java Core","key":"tag"}},"excerpt":"","headers":[],"git":{},"filePathRelative":null}');export{a as data};

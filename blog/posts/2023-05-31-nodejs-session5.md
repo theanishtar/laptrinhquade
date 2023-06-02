@@ -5,7 +5,7 @@ subtitle: Lập trình NodeJS
 author: Theanishtar
 date: 2023-05-31
 useHeaderImage: true
-headerImage: /img/in-post/2022-02-21/header.jpeg
+headerImage: /img/in-post/2017-06-09/header.jpeg
 headerMask: rgb(67, 65, 47, .2)
 permalinkPattern: /post/:year/:month/:day/:slug/
 tags:
