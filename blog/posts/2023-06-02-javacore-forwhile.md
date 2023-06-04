@@ -12,7 +12,7 @@ tags:
   - Java Core
 ---
 
-Cùng mình tìm hiểu về Cấu trúc rẽ nhánh trong Java nha
+Cùng mình tìm hiểu về vòng lặp **for, forEach, while và do while** trong Java nha ^^
 
 <!-- more -->
 
@@ -20,6 +20,10 @@ Cùng mình tìm hiểu về Cấu trúc rẽ nhánh trong Java nha
 # Vòng lặp
 
 Cũng như bài [Điều kiện](), thì đây là một vấn đề có trong mọi ngôn ngữ lập trình.
+
+> Vậy vòng lặp là gì?
+
+**Vòng lặp là cấu trúc lặp đi lặp lại một biểu thức nào đó đến khi nào điều kiện dừng là sai**
 
 Dùng để làm một vấn đề gì đó lặp đi lặp lại, có các kiểu vòng lặp sau :
 
@@ -39,8 +43,8 @@ Như mọi ngôn ngữ đây là vòng lặp lại lặp lại miễn điều ki
 ```java
 int i = 0;
 while (i < 4){
-    System.out.print(i + " ");
-    i++; //có này để dần dẫn cho điều kiện thành false
+	System.out.print(i + " ");
+	i++; //có này để dần dẫn cho điều kiện thành false
 }
 // output : 0 1 2 3
 ```
@@ -56,7 +60,7 @@ while (i < 4){
 ```java
 int i = 0; 
 do{
-    System.out.print(i + " ");
+   System.out.print(i + " ");
 }while(i < 0)
 // output : 0
 ```
@@ -76,7 +80,7 @@ Nó là một dạng vòng lặp ngắn gọn nhất,bao gồm 3 phần chính :
 ```java
 int [] myArray = {4,5,7,2};
 for (int i = 0 ; i < array.length; i++){
-    System.out.print(i + " ");
+   System.out.print(i + " ");
 }
 // output : 4 5 7 2
 ```
@@ -92,7 +96,7 @@ for (int i = 0 ; i < array.length; i++){
 ```java
 int[] myArray = {5,3,2,6};
 for(int index : myArray){
-    System.out.print(index + " ");
+   System.out.print(index + " ");
 }
 // output : 5 3 2 6
 ```
@@ -110,10 +114,10 @@ Vậy ta tự hỏi thế này :
 ```java
 int[] array = {5,3,8,6};
 for(int i : array){
-    if(i == 8){
-        break;
-    }
-    System.out.print(i + " ");
+   if(i == 8){
+      break;
+   }
+   System.out.print(i + " ");
 }
 //output : 5 3
 ```
@@ -125,10 +129,10 @@ for(int i : array){
 ```java
 int[] array = {5,3,8,6};
 for(int i : array){
-    if(i == 8){
-        continue;
-    }
-    System.out.print(i + " ");
+   if(i == 8){
+      continue;
+   }
+   System.out.print(i + " ");
 }
 //output : 5 3 6
 ```
@@ -141,10 +145,10 @@ Ta sẽ đúng tới **Label** để điều khiển vòng lặp một cách t
 int[] array = {5,3,8,6};
 loop:
 for(int i in array){
-    if(i == 8){
-        continue loop;
-    }
-    System.out.print(i + " ");
+   if(i == 8){
+      continue loop;
+   }
+   System.out.print(i + " ");
 }
 //output : 5 3 6
 ```
