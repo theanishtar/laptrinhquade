@@ -1,4 +1,6 @@
 export const pagesData = {
+  // path: /tech/
+  "v-15551100": () => import(/* webpackChunkName: "v-15551100" */"C:/Users/ADMIN/Desktop/git/dangtranhuu/Angurvad/blog/.vuepress/.temp/pages/tech/index.html.js").then(({ data }) => data),
   // path: /post/2022/01/29/about-me/
   "v-66a4fd02": () => import(/* webpackChunkName: "v-66a4fd02" */"C:/Users/ADMIN/Desktop/git/dangtranhuu/Angurvad/blog/.vuepress/.temp/pages/post/2022/01/29/about-me/index.html.js").then(({ data }) => data),
   // path: /post/2022/02/21/about-project/
@@ -21,8 +23,6 @@ export const pagesData = {
   "v-498b1dde": () => import(/* webpackChunkName: "v-498b1dde" */"C:/Users/ADMIN/Desktop/git/dangtranhuu/Angurvad/blog/.vuepress/.temp/pages/post/2023/06/02/java-core-session3/index.html.js").then(({ data }) => data),
   // path: /post/2023/06/02/java-core-session4/
   "v-498b1da0": () => import(/* webpackChunkName: "v-498b1da0" */"C:/Users/ADMIN/Desktop/git/dangtranhuu/Angurvad/blog/.vuepress/.temp/pages/post/2023/06/02/java-core-session4/index.html.js").then(({ data }) => data),
-  // path: /tech/
-  "v-15551100": () => import(/* webpackChunkName: "v-15551100" */"C:/Users/ADMIN/Desktop/git/dangtranhuu/Angurvad/blog/.vuepress/.temp/pages/tech/index.html.js").then(({ data }) => data),
   // path: /404.html
   "v-3706649a": () => import(/* webpackChunkName: "v-3706649a" */"C:/Users/ADMIN/Desktop/git/dangtranhuu/Angurvad/blog/.vuepress/.temp/pages/404.html.js").then(({ data }) => data),
   // path: /tags/

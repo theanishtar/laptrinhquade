@@ -1,5 +1,13 @@
 export const searchIndex = [
   {
+    "title": "Links",
+    "headers": [],
+    "path": "/tech/",
+    "pathLocale": "/",
+    "extraFields": [],
+    "layout": "Links"
+  },
+  {
     "title": "Tìm hiểu về mình",
     "subtitle": "Mình là ai?",
     "headers": [
@@ -514,14 +522,6 @@ export const searchIndex = [
     "pathLocale": "/",
     "extraFields": [],
     "layout": "Post"
-  },
-  {
-    "title": "Links",
-    "headers": [],
-    "path": "/tech/",
-    "pathLocale": "/",
-    "extraFields": [],
-    "layout": "Links"
   },
   {
     "title": "",

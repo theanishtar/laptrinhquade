@@ -9,7 +9,7 @@ dependencies:
     specifier: ^9.22.1
     version: 9.22.1
   vuepress-plugin-giscus:
-    specifier: 2.0.0-alpha.26
+    specifier: ^2.0.0-alpha.26
     version: 2.0.0-alpha.26
 
 devDependencies:
