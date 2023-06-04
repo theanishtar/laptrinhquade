@@ -27,7 +27,7 @@ const isProd = process.env.NODE_ENV === "production";
 
 export default defineUserConfig({
 	title: "Angurvad",
-	description: "Developer 18+",
+	description: "Một lập trình viên luôn cố gắng mỗi ngày",
 
 	head: [
 		[
@@ -48,8 +48,9 @@ export default defineUserConfig({
 				href: `/img/logo/favicon-32x32.png`
 			}
 		],
-		["meta", { name: "application-name", content: "Xiaohan Zou" }],
-		["meta", { name: "apple-mobile-web-app-title", content: "Xiaohan Zou" }],
+		["meta", { name: "application-name", content: "TheanIshtar" }],
+		["meta", { property: "og:image" , content: "https://github.com/dangtranhuu/images/blob/main/angurvad/main.png?raw=true" }],
+		["meta", { name: "apple-mobile-web-app-title", content: "Thean" }],
 		[
 			"meta",
 			{ name: "apple-mobile-web-app-status-bar-style", content: "black" }
@@ -74,7 +75,7 @@ export default defineUserConfig({
 		// personal information
 		personalInfo: {
 			name: "Theanishtar",
-			avatar: "/img/avatar.jpg",
+			avatar: "/img/logo/cat-qd.gif",
 			// description: "いつか、私がヒトじゃなくなっても",
 			description: "Môi trường học tập thú vị dành cho sinh viên CNTT",
 			sns: {

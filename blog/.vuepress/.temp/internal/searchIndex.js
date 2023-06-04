@@ -299,7 +299,7 @@ export const searchIndex = [
         "children": []
       }
     ],
-    "path": "/post/2023/06/02/javacore-about/",
+    "path": "/post/2023/06/02/java-core-session1/",
     "pathLocale": "/",
     "extraFields": [],
     "layout": "Post"
@@ -397,53 +397,7 @@ export const searchIndex = [
         ]
       }
     ],
-    "path": "/post/2023/06/02/javacore-data-type/",
-    "pathLocale": "/",
-    "extraFields": [],
-    "layout": "Post"
-  },
-  {
-    "title": "Vòng lặp trong Java",
-    "subtitle": "Lập trình Java căn bản",
-    "headers": [
-      {
-        "level": 2,
-        "title": "1. Vòng lặp while",
-        "slug": "_1-vong-lap-while",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "2. Vòng lặp do..while",
-        "slug": "_2-vong-lap-do-while",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "3. Vòng lặp for",
-        "slug": "_3-vong-lap-for",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "4. Vòng lặp for..Each",
-        "slug": "_4-vong-lap-for-each",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "5. Điều khiển vòng lặp",
-        "slug": "_5-đieu-khien-vong-lap",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "6. Gắn nhãn vòng lặp",
-        "slug": "_6-gan-nhan-vong-lap",
-        "children": []
-      }
-    ],
-    "path": "/post/2023/06/02/javacore-forwhile/",
+    "path": "/post/2023/06/02/java-core-session2/",
     "pathLocale": "/",
     "extraFields": [],
     "layout": "Post"
@@ -510,7 +464,53 @@ export const searchIndex = [
         "children": []
       }
     ],
-    "path": "/post/2023/06/02/javacore-ifelse/",
+    "path": "/post/2023/06/02/java-core-session3/",
+    "pathLocale": "/",
+    "extraFields": [],
+    "layout": "Post"
+  },
+  {
+    "title": "Vòng lặp trong Java",
+    "subtitle": "Lập trình Java căn bản",
+    "headers": [
+      {
+        "level": 2,
+        "title": "1. Vòng lặp while",
+        "slug": "_1-vong-lap-while",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "2. Vòng lặp do..while",
+        "slug": "_2-vong-lap-do-while",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "3. Vòng lặp for",
+        "slug": "_3-vong-lap-for",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "4. Vòng lặp for..Each",
+        "slug": "_4-vong-lap-for-each",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "5. Điều khiển vòng lặp",
+        "slug": "_5-đieu-khien-vong-lap",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "6. Gắn nhãn vòng lặp",
+        "slug": "_6-gan-nhan-vong-lap",
+        "children": []
+      }
+    ],
+    "path": "/post/2023/06/02/java-core-session4/",
     "pathLocale": "/",
     "extraFields": [],
     "layout": "Post"
