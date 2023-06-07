@@ -6,7 +6,7 @@ author: Theanishtar
 date: 2023-06-02
 useHeaderImage: true
 headerImage: /img/in-post/2021-07-27/header.jpeg
-headerMask: rgb(67, 65, 47, .2)
+headerMask: rgba(39, 77, 61, 0.61)
 permalinkPattern: /post/:year/:month/:day/:slug/
 tags:
   - Java Core

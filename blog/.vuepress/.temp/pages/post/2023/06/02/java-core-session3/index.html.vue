@@ -63,12 +63,12 @@
 <li>Có thể gộp nhiều <strong>case</strong> lại, như <strong>case 1,2,3:</strong></li>
 </ul>
 </div>
-<h2 id="bai-tap" tabindex="-1"><a class="header-anchor" href="#bai-tap" aria-hidden="true">#</a> Bài tập</h2>
+<h2 id="_3-bai-tap" tabindex="-1"><a class="header-anchor" href="#_3-bai-tap" aria-hidden="true">#</a> 3. Bài tập</h2>
 <p>Cùng mình giải quyết các bài tập sau nhé, để hiệu quả hơn bạn nên code trước rồi quay lại xem kết quả có giống mình không nha</p>
 <h3 id="if-else" tabindex="-1"><a class="header-anchor" href="#if-else" aria-hidden="true">#</a> If..Else</h3>
 <h4 id="kiem-tra-so-n-nhap-tu-ban-phim-la-so-am-hay-duong" tabindex="-1"><a class="header-anchor" href="#kiem-tra-so-n-nhap-tu-ban-phim-la-so-am-hay-duong" aria-hidden="true">#</a> Kiểm tra số N nhập từ bàn phím là số âm hay dương.</h4>
 <details class="custom-container details"><summary>Cách 1: Sử dụng If..Else lồng nhau</summary>
-<div class="language-java ext-java"><pre v-pre class="language-java"><code><span class="token keyword">public</span> <span class="token keyword">class</span> <span class="token class-name">CauLenhReNhanh1</span> <span class="token punctuation">{</span>
+<div class="language-java ext-java"><pre v-pre class="language-java"><code><span class="token keyword">public</span> <span class="token keyword">class</span> <span class="token class-name">CauLenhReNhanh</span> <span class="token punctuation">{</span>
 
     <span class="token keyword">public</span> <span class="token keyword">static</span> <span class="token keyword">void</span> <span class="token function">main</span><span class="token punctuation">(</span><span class="token class-name">String</span><span class="token punctuation">[</span><span class="token punctuation">]</span> args<span class="token punctuation">)</span> <span class="token punctuation">{</span>
         <span class="token class-name">Scanner</span> sc <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token class-name">Scanner</span><span class="token punctuation">(</span><span class="token class-name">System</span><span class="token punctuation">.</span>in<span class="token punctuation">)</span><span class="token punctuation">;</span>
@@ -91,7 +91,7 @@
 <span class="token punctuation">}</span>
 </code></pre></div></details>
 <details class="custom-container details"><summary>Cách 2: Sử dụng If..Else if..Else</summary>
-<div class="language-java ext-java"><pre v-pre class="language-java"><code><span class="token keyword">public</span> <span class="token keyword">class</span> <span class="token class-name">CauLenhReNhanh1</span> <span class="token punctuation">{</span>
+<div class="language-java ext-java"><pre v-pre class="language-java"><code><span class="token keyword">public</span> <span class="token keyword">class</span> <span class="token class-name">CauLenhReNhanh</span> <span class="token punctuation">{</span>
 
     <span class="token keyword">public</span> <span class="token keyword">static</span> <span class="token keyword">void</span> <span class="token function">main</span><span class="token punctuation">(</span><span class="token class-name">String</span><span class="token punctuation">[</span><span class="token punctuation">]</span> args<span class="token punctuation">)</span> <span class="token punctuation">{</span>
         <span class="token class-name">Scanner</span> sc <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token class-name">Scanner</span><span class="token punctuation">(</span><span class="token class-name">System</span><span class="token punctuation">.</span>in<span class="token punctuation">)</span><span class="token punctuation">;</span>
@@ -111,9 +111,60 @@
     <span class="token punctuation">}</span>
 <span class="token punctuation">}</span>
 </code></pre></div></details>
+<h4 id="kiem-tra-so-chan-hay-so-le" tabindex="-1"><a class="header-anchor" href="#kiem-tra-so-chan-hay-so-le" aria-hidden="true">#</a> Kiểm tra số chẵn hay số lẻ</h4>
+<details class="custom-container details"><summary>Bài giải</summary>
+<div class="language-java ext-java"><pre v-pre class="language-java"><code><span class="token keyword">public</span> <span class="token keyword">class</span> <span class="token class-name">KiemTraSoChanLe</span> <span class="token punctuation">{</span>
+    <span class="token keyword">public</span> <span class="token keyword">static</span> <span class="token keyword">void</span> <span class="token function">main</span><span class="token punctuation">(</span><span class="token class-name">String</span><span class="token punctuation">[</span><span class="token punctuation">]</span> args<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+        <span class="token keyword">int</span> n <span class="token operator">=</span> <span class="token number">10</span><span class="token punctuation">;</span>
+        <span class="token keyword">if</span><span class="token punctuation">(</span>n<span class="token operator">%</span><span class="token number">2</span><span class="token operator">==</span><span class="token number">0</span><span class="token punctuation">)</span>
+        <span class="token punctuation">{</span>
+            <span class="token class-name">System</span><span class="token punctuation">.</span>out<span class="token punctuation">.</span><span class="token function">println</span><span class="token punctuation">(</span><span class="token string">"Đây là số chẵn!"</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+        <span class="token punctuation">}</span>
+        <span class="token keyword">else</span>
+        <span class="token punctuation">{</span>
+            <span class="token class-name">System</span><span class="token punctuation">.</span>out<span class="token punctuation">.</span><span class="token function">println</span><span class="token punctuation">(</span><span class="token string">"Đây là số lẻ!"</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+        <span class="token punctuation">}</span>
+    <span class="token punctuation">}</span>
+<span class="token punctuation">}</span>
+</code></pre></div></details>
+<h4 id="kiem-tra-nam-nhuan" tabindex="-1"><a class="header-anchor" href="#kiem-tra-nam-nhuan" aria-hidden="true">#</a> Kiểm tra năm nhuận</h4>
+<details class="custom-container details"><summary>Bài giải</summary>
+<div class="language-java ext-java"><pre v-pre class="language-java"><code><span class="token keyword">import</span> <span class="token import"><span class="token namespace">java<span class="token punctuation">.</span>util<span class="token punctuation">.</span></span><span class="token class-name">Scanner</span></span><span class="token punctuation">;</span>
+<span class="token keyword">public</span> <span class="token keyword">class</span> <span class="token class-name">NamNhuan</span> <span class="token punctuation">{</span>
+    <span class="token keyword">public</span> <span class="token keyword">static</span> <span class="token keyword">void</span> <span class="token function">main</span><span class="token punctuation">(</span><span class="token class-name">String</span><span class="token punctuation">[</span><span class="token punctuation">]</span> args<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+        <span class="token keyword">int</span> year<span class="token punctuation">;</span>
+        <span class="token class-name">Scanner</span> scan <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token class-name">Scanner</span><span class="token punctuation">(</span><span class="token class-name">System</span><span class="token punctuation">.</span>in<span class="token punctuation">)</span><span class="token punctuation">;</span>
+        <span class="token class-name">System</span><span class="token punctuation">.</span>out<span class="token punctuation">.</span><span class="token function">println</span><span class="token punctuation">(</span><span class="token string">"Nhập vào năm bạn cần kiểm tra:"</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+        year <span class="token operator">=</span> scan<span class="token punctuation">.</span><span class="token function">nextInt</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+        scan<span class="token punctuation">.</span><span class="token function">close</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+        <span class="token keyword">boolean</span> isLeap <span class="token operator">=</span> <span class="token boolean">false</span><span class="token punctuation">;</span>
+        <span class="token keyword">if</span><span class="token punctuation">(</span>year <span class="token operator">%</span> <span class="token number">4</span> <span class="token operator">==</span> <span class="token number">0</span><span class="token punctuation">)</span><span class="token comment">//chia hết cho 4 là năm nhuận</span>
+        <span class="token punctuation">{</span>
+            <span class="token keyword">if</span><span class="token punctuation">(</span> year <span class="token operator">%</span> <span class="token number">100</span> <span class="token operator">==</span> <span class="token number">0</span><span class="token punctuation">)</span>
+            <span class="token comment">//nếu vừa chia hết cho 4 mà vừa chia hết cho 100 thì không phải năm nhuận</span>
+            <span class="token punctuation">{</span>
+                <span class="token keyword">if</span> <span class="token punctuation">(</span> year <span class="token operator">%</span> <span class="token number">400</span> <span class="token operator">==</span> <span class="token number">0</span><span class="token punctuation">)</span><span class="token comment">//chia hết cho 400 là năm nhuận</span>
+                    isLeap <span class="token operator">=</span> <span class="token boolean">true</span><span class="token punctuation">;</span>
+                <span class="token keyword">else</span>
+                    isLeap <span class="token operator">=</span> <span class="token boolean">false</span><span class="token punctuation">;</span><span class="token comment">//không chia hết cho 400 thì không phải năm nhuận</span>
+            <span class="token punctuation">}</span>
+            <span class="token keyword">else</span><span class="token comment">//chia hết cho 4 nhưng không chia hết cho 100 là năm nhuận</span>
+                isLeap <span class="token operator">=</span> <span class="token boolean">true</span><span class="token punctuation">;</span>
+        <span class="token punctuation">}</span>
+        <span class="token keyword">else</span> <span class="token punctuation">{</span>
+            isLeap <span class="token operator">=</span> <span class="token boolean">false</span><span class="token punctuation">;</span>
+        <span class="token punctuation">}</span>
+        <span class="token keyword">if</span><span class="token punctuation">(</span>isLeap<span class="token operator">==</span><span class="token boolean">true</span><span class="token punctuation">)</span>
+            <span class="token class-name">System</span><span class="token punctuation">.</span>out<span class="token punctuation">.</span><span class="token function">println</span><span class="token punctuation">(</span>year <span class="token operator">+</span> <span class="token string">" là năm nhuận."</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+        <span class="token keyword">else</span>
+            <span class="token class-name">System</span><span class="token punctuation">.</span>out<span class="token punctuation">.</span><span class="token function">println</span><span class="token punctuation">(</span>year <span class="token operator">+</span> <span class="token string">" không phải là năm nhuận."</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token punctuation">}</span>
+<span class="token punctuation">}</span>
+</code></pre></div></details>
 <h3 id="switch-case" tabindex="-1"><a class="header-anchor" href="#switch-case" aria-hidden="true">#</a> Switch..Case</h3>
-<h4 id="nhap-vao-so-a-neu-0-a-10-xuat-ra-phat-am-cua-so-đo-nguoc-lai-xuat-ra-khong-doc-duoc" tabindex="-1"><a class="header-anchor" href="#nhap-vao-so-a-neu-0-a-10-xuat-ra-phat-am-cua-so-đo-nguoc-lai-xuat-ra-khong-doc-duoc" aria-hidden="true">#</a> Nhập vào số a, nếu 0&lt;=a&lt;=10 xuất ra phát âm của số đó, ngược lại xuất ra &quot;khong doc duoc&quot;</h4>
-<details class="custom-container details"><summary>Cách 2: Sử dụng If..ElseIf..Else</summary>
+<h4 id="đoc-so-tu-0-đen-10" tabindex="-1"><a class="header-anchor" href="#đoc-so-tu-0-đen-10" aria-hidden="true">#</a> Đọc số từ 0 đến 10</h4>
+<p>Nhập vào số a, nếu 0&lt;=a&lt;=10 xuất ra phát âm của số đó, ngược lại xuất ra &quot;khong doc duoc&quot;</p>
+<details class="custom-container details"><summary>Bài giải</summary>
 <div class="language-java ext-java"><pre v-pre class="language-java"><code><span class="token keyword">public</span> <span class="token keyword">class</span> <span class="token class-name">CauLenhReNhanh</span> <span class="token punctuation">{</span>
 
     <span class="token keyword">public</span> <span class="token keyword">static</span> <span class="token keyword">void</span> <span class="token function">main</span><span class="token punctuation">(</span><span class="token class-name">String</span><span class="token punctuation">[</span><span class="token punctuation">]</span> args<span class="token punctuation">)</span> <span class="token punctuation">{</span>

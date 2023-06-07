@@ -1,6 +1,9 @@
 import { viteBundler } from "@vuepress/bundler-vite";
 import { defineUserConfig } from "vuepress";
 import { gungnirTheme } from "vuepress-theme-gungnir";
+import { sidebar } from "./configs";
+
+
 // import { giscusPlugin } from "vuepress-plugin-giscus";
 
 // Import the functions you need from the SDKs you need
@@ -10,6 +13,7 @@ import { initializeApp } from "firebase/app";
 
 // Your web app's Firebase configuration
 // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+
 const firebaseConfig = {
 	apiKey: "AIzaSyAwT2Z-hMtohDflO0fliu-dxmjpuxjA5fU",
 	authDomain: "angurvad-5559e.firebaseapp.com",
@@ -49,7 +53,7 @@ export default defineUserConfig({
 			}
 		],
 		["meta", { name: "application-name", content: "TheanIshtar" }],
-		["meta", { property: "og:image" , content: "https://github.com/dangtranhuu/images/blob/main/angurvad/main.png?raw=true" }],
+		["meta", { property: "og:image", content: "https://github.com/dangtranhuu/images/blob/main/angurvad/main.png?raw=true" }],
 		["meta", { name: "apple-mobile-web-app-title", content: "Thean" }],
 		[
 			"meta",
@@ -77,7 +81,7 @@ export default defineUserConfig({
 			name: "Theanishtar",
 			avatar: "/img/logo/cat-qd.gif",
 			// description: "いつか、私がヒトじゃなくなっても",
-			description: "Môi trường học tập thú vị dành cho sinh viên CNTT",
+			description: "Môi trường học tập dành cho sinh viên CNTT",
 			sns: {
 				github: "theanishtar",
 				linkedin: "tranhuudang",
@@ -133,6 +137,33 @@ export default defineUserConfig({
 			}
 		},
 
+		// theme-level locales config
+		locales: {
+			/**
+			 * English locale config
+			 *
+			 * As the default locale is English, we don't need to set all of the locale fields
+			 */
+			"/": {
+				// navbar
+				// navbar: navbar.en,
+				// sidebar
+				sidebar: sidebar.en
+			},
+
+			/**
+			 * Chinese locale config
+			 */
+			// "/zh/": {
+			// 	// navbar
+			// 	navbar: navbar.zh,
+			// 	// sidebar
+			// 	sidebar: sidebar.zh,
+			// 	// i18n
+			// 	...i18n.zh
+			// }
+		},
+
 		themePlugins: {
 			// only enable git plugin in production mode
 			git: isProd,
@@ -177,6 +208,11 @@ export default defineUserConfig({
 				icon: "fa-fort-awesome"
 			},
 			{
+				text: "Giới thiệu",
+				link: "/about/readme.md",
+				icon: "fa-paw"  //"fa-paw"
+			},
+			{
 				text: "Bài viết",
 				link: "/tags/",
 				icon: "fa-tag"
@@ -186,11 +222,7 @@ export default defineUserConfig({
 				link: "/tech/",
 				icon: "fa-satellite-dish"
 			},
-			// {
-			// 	text: "About",
-			// 	link: "https://zxh.io",
-			// 	icon: "fa-paw"
-			// },
+
 			// {
 			// 	text: "Portfolio",
 			// 	link: "https://portfolio.zxh.io/",

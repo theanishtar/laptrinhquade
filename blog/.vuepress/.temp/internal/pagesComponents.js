@@ -1,6 +1,10 @@
 import { defineAsyncComponent } from 'vue'
 
 export const pagesComponents = {
+  // path: /about/project.html
+  "v-31767f5b": defineAsyncComponent(() => import(/* webpackChunkName: "v-31767f5b" */"C:/Users/ADMIN/Desktop/git/dangtranhuu/Angurvad/blog/.vuepress/.temp/pages/about/project.html.vue")),
+  // path: /about/
+  "v-74bc627b": defineAsyncComponent(() => import(/* webpackChunkName: "v-74bc627b" */"C:/Users/ADMIN/Desktop/git/dangtranhuu/Angurvad/blog/.vuepress/.temp/pages/about/index.html.vue")),
   // path: /tech/
   "v-15551100": defineAsyncComponent(() => import(/* webpackChunkName: "v-15551100" */"C:/Users/ADMIN/Desktop/git/dangtranhuu/Angurvad/blog/.vuepress/.temp/pages/tech/index.html.vue")),
   // path: /post/2022/01/29/about-me/
@@ -25,6 +29,10 @@ export const pagesComponents = {
   "v-498b1dde": defineAsyncComponent(() => import(/* webpackChunkName: "v-498b1dde" */"C:/Users/ADMIN/Desktop/git/dangtranhuu/Angurvad/blog/.vuepress/.temp/pages/post/2023/06/02/java-core-session3/index.html.vue")),
   // path: /post/2023/06/02/java-core-session4/
   "v-498b1da0": defineAsyncComponent(() => import(/* webpackChunkName: "v-498b1da0" */"C:/Users/ADMIN/Desktop/git/dangtranhuu/Angurvad/blog/.vuepress/.temp/pages/post/2023/06/02/java-core-session4/index.html.vue")),
+  // path: /post/2023/06/05/java-core-session5/
+  "v-010551d2": defineAsyncComponent(() => import(/* webpackChunkName: "v-010551d2" */"C:/Users/ADMIN/Desktop/git/dangtranhuu/Angurvad/blog/.vuepress/.temp/pages/post/2023/06/05/java-core-session5/index.html.vue")),
+  // path: /post/2023/06/07/java-core-session6/
+  "v-1a373cf3": defineAsyncComponent(() => import(/* webpackChunkName: "v-1a373cf3" */"C:/Users/ADMIN/Desktop/git/dangtranhuu/Angurvad/blog/.vuepress/.temp/pages/post/2023/06/07/java-core-session6/index.html.vue")),
   // path: /404.html
   "v-3706649a": defineAsyncComponent(() => import(/* webpackChunkName: "v-3706649a" */"C:/Users/ADMIN/Desktop/git/dangtranhuu/Angurvad/blog/.vuepress/.temp/pages/404.html.vue")),
   // path: /tags/

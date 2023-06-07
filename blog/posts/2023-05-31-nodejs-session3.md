@@ -6,7 +6,7 @@ author: Theanishtar
 date: 2023-05-31
 useHeaderImage: true
 headerImage: /img/in-post/2021-01-01/header.jpg
-headerMask: rgb(67, 65, 47, .2)
+headerMask: rgba(22, 9, 98, 0.615)
 permalinkPattern: /post/:year/:month/:day/:slug/
 tags:
   - NodeJS

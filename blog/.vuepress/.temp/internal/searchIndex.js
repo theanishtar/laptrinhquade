@@ -1,5 +1,132 @@
 export const searchIndex = [
   {
+    "title": "Giới thiệu về dự án",
+    "headers": [
+      {
+        "level": 2,
+        "title": "Mục đích ra đời",
+        "slug": "muc-đich-ra-đoi",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "Ý tưởng và tên gọi",
+        "slug": "y-tuong-va-ten-goi",
+        "children": [
+          {
+            "level": 3,
+            "title": "Về ý tưởng",
+            "slug": "ve-y-tuong",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "Về tên gọi",
+            "slug": "ve-ten-goi",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "Các tính năng",
+        "slug": "cac-tinh-nang",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "Công nghệ sử dụng",
+        "slug": "cong-nghe-su-dung",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "Phát triển dài hạn",
+        "slug": "phat-trien-dai-han",
+        "children": []
+      }
+    ],
+    "path": "/about/project.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "Giới thiệu về mình",
+    "headers": [
+      {
+        "level": 2,
+        "title": "Đôi nét về mình ?",
+        "slug": "đoi-net-ve-minh",
+        "children": [
+          {
+            "level": 3,
+            "title": "Các công nghệ mình biết",
+            "slug": "cac-cong-nghe-minh-biet",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "Dự định trong trương lai?",
+        "slug": "du-đinh-trong-truong-lai",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "Liên hệ với mình như thế nào?",
+        "slug": "lien-he-voi-minh-nhu-the-nao",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "Mục đích ra đời",
+        "slug": "muc-đich-ra-đoi",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "Ý tưởng và tên gọi",
+        "slug": "y-tuong-va-ten-goi",
+        "children": [
+          {
+            "level": 3,
+            "title": "Về ý tưởng",
+            "slug": "ve-y-tuong",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "Về tên gọi",
+            "slug": "ve-ten-goi",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "Các tính năng",
+        "slug": "cac-tinh-nang",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "Công nghệ sử dụng",
+        "slug": "cong-nghe-su-dung",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "Phát triển dài hạn",
+        "slug": "phat-trien-dai-han",
+        "children": []
+      }
+    ],
+    "path": "/about/",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
     "title": "Links",
     "headers": [],
     "path": "/tech/",
@@ -403,6 +530,19 @@ export const searchIndex = [
             "children": []
           }
         ]
+      },
+      {
+        "level": 2,
+        "title": "5. Bài tập",
+        "slug": "_5-bai-tap",
+        "children": [
+          {
+            "level": 3,
+            "title": "Tính lãi xuất kép trong",
+            "slug": "tinh-lai-xuat-kep-trong",
+            "children": []
+          }
+        ]
       }
     ],
     "path": "/post/2023/06/02/java-core-session2/",
@@ -434,8 +574,8 @@ export const searchIndex = [
       },
       {
         "level": 2,
-        "title": "Bài tập",
-        "slug": "bai-tap",
+        "title": "3. Bài tập",
+        "slug": "_3-bai-tap",
         "children": [
           {
             "level": 3,
@@ -447,6 +587,18 @@ export const searchIndex = [
                 "title": "Kiểm tra số N nhập từ bàn phím là số âm hay dương.",
                 "slug": "kiem-tra-so-n-nhap-tu-ban-phim-la-so-am-hay-duong",
                 "children": []
+              },
+              {
+                "level": 4,
+                "title": "Kiểm tra số chẵn hay số lẻ",
+                "slug": "kiem-tra-so-chan-hay-so-le",
+                "children": []
+              },
+              {
+                "level": 4,
+                "title": "Kiểm tra năm nhuận",
+                "slug": "kiem-tra-nam-nhuan",
+                "children": []
               }
             ]
           },
@@ -457,8 +609,8 @@ export const searchIndex = [
             "children": [
               {
                 "level": 4,
-                "title": "Nhập vào số a, nếu 0<=a<=10 xuất ra phát âm của số đó, ngược lại xuất ra \"khong doc duoc\"",
-                "slug": "nhap-vao-so-a-neu-0-a-10-xuat-ra-phat-am-cua-so-đo-nguoc-lai-xuat-ra-khong-doc-duoc",
+                "title": "Đọc số từ 0 đến 10",
+                "slug": "đoc-so-tu-0-đen-10",
                 "children": []
               }
             ]
@@ -509,16 +661,286 @@ export const searchIndex = [
         "level": 2,
         "title": "5. Điều khiển vòng lặp",
         "slug": "_5-đieu-khien-vong-lap",
-        "children": []
+        "children": [
+          {
+            "level": 3,
+            "title": "Lệnh break để thoát vòng lặp",
+            "slug": "lenh-break-đe-thoat-vong-lap",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "Lệnh continue để thoát thực hiện lần lặp tiếp",
+            "slug": "lenh-continue-đe-thoat-thuc-hien-lan-lap-tiep",
+            "children": []
+          }
+        ]
       },
       {
         "level": 2,
         "title": "6. Gắn nhãn vòng lặp",
         "slug": "_6-gan-nhan-vong-lap",
         "children": []
+      },
+      {
+        "level": 2,
+        "title": "7. Bài tập",
+        "slug": "_7-bai-tap",
+        "children": [
+          {
+            "level": 3,
+            "title": "7.1 Tìm bội chung nhỏ nhất Java bằng vòng lặp while",
+            "slug": "_7-1-tim-boi-chung-nho-nhat-java-bang-vong-lap-while",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "7.2 Đảo ngược một số nguyên N",
+            "slug": "_7-2-đao-nguoc-mot-so-nguyen-n",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "7.3 Tính căn bậc hai",
+            "slug": "_7-3-tinh-can-bac-hai",
+            "children": []
+          }
+        ]
       }
     ],
     "path": "/post/2023/06/02/java-core-session4/",
+    "pathLocale": "/",
+    "extraFields": [],
+    "layout": "Post"
+  },
+  {
+    "title": "Mảng trong Java",
+    "subtitle": "Lập trình Java căn bản",
+    "headers": [
+      {
+        "level": 2,
+        "title": "1. Khái niệm",
+        "slug": "_1-khai-niem",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "2. Khai báo mảng",
+        "slug": "_2-khai-bao-mang",
+        "children": [
+          {
+            "level": 3,
+            "title": "Khai báo không khởi tạo phần tử",
+            "slug": "khai-bao-khong-khoi-tao-phan-tu",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "Khai báo có khởi tạo phần tử",
+            "slug": "khai-bao-co-khoi-tao-phan-tu",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "3. Các tính chất",
+        "slug": "_3-cac-tinh-chat",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "4. Độ dài của mảng",
+        "slug": "_4-đo-dai-cua-mang",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "5. Duyệt mảng",
+        "slug": "_5-duyet-mang",
+        "children": [
+          {
+            "level": 3,
+            "title": "Vòng lặp for",
+            "slug": "vong-lap-for",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "Vòng lặp forEach",
+            "slug": "vong-lap-foreach",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "6. Mảng đa chiều",
+        "slug": "_6-mang-đa-chieu",
+        "children": [
+          {
+            "level": 3,
+            "title": "Ví dụ mảng 2 chiều",
+            "slug": "vi-du-mang-2-chieu",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "Ví dụ mảng 3 chiều",
+            "slug": "vi-du-mang-3-chieu",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "7. Bài tập",
+        "slug": "_7-bai-tap",
+        "children": [
+          {
+            "level": 3,
+            "title": "7.1 Dùng vòng lặp For để tính tổng các số trong mảng",
+            "slug": "_7-1-dung-vong-lap-for-đe-tinh-tong-cac-so-trong-mang",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "7.2 Đảo ngược các phần tử trong mảng.",
+            "slug": "_7-2-đao-nguoc-cac-phan-tu-trong-mang",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "7.3 In các phần tử trùng nhau trong mảng",
+            "slug": "_7-3-in-cac-phan-tu-trung-nhau-trong-mang",
+            "children": []
+          }
+        ]
+      }
+    ],
+    "path": "/post/2023/06/05/java-core-session5/",
+    "pathLocale": "/",
+    "extraFields": [],
+    "layout": "Post"
+  },
+  {
+    "title": "Chuỗi trong Java",
+    "subtitle": "Lập trình Java căn bản",
+    "headers": [
+      {
+        "level": 2,
+        "title": "1. Khái niệm",
+        "slug": "_1-khai-niem",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "2. Khai báo chuỗi",
+        "slug": "_2-khai-bao-chuoi",
+        "children": [
+          {
+            "level": 3,
+            "title": "Khai báo không khởi tạo giá trị",
+            "slug": "khai-bao-khong-khoi-tao-gia-tri",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "Khai báo có khởi tạo giá trị",
+            "slug": "khai-bao-co-khoi-tao-gia-tri",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "3. Các tính chất",
+        "slug": "_3-cac-tinh-chat",
+        "children": [
+          {
+            "level": 3,
+            "title": "Ký tự đặc biệt",
+            "slug": "ky-tu-đac-biet",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "4. Các phương thức của Chuỗi",
+        "slug": "_4-cac-phuong-thuc-cua-chuoi",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "5. Xuất chuỗi",
+        "slug": "_5-xuat-chuoi",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "6. Duyệt chuỗi",
+        "slug": "_6-duyet-chuoi",
+        "children": [
+          {
+            "level": 3,
+            "title": "Vòng lặp for",
+            "slug": "vong-lap-for",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "Vòng lặp forEach",
+            "slug": "vong-lap-foreach",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "7. Nối chuỗi",
+        "slug": "_7-noi-chuoi",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "8. Lưu ý",
+        "slug": "_8-luu-y",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "9. Bài tập",
+        "slug": "_9-bai-tap",
+        "children": [
+          {
+            "level": 3,
+            "title": "9.1 Xuất tên chuẩn hóa cấp độ 1",
+            "slug": "_9-1-xuat-ten-chuan-hoa-cap-đo-1",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "9.2 Xuất tên chuẩn hóa cấp độ 2",
+            "slug": "_9-2-xuat-ten-chuan-hoa-cap-đo-2",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "9.3 Xuất tên chuẩn hóa cấp độ 3",
+            "slug": "_9-3-xuat-ten-chuan-hoa-cap-đo-3",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "9.4 Xuất tên chuẩn hóa cấp độ 4",
+            "slug": "_9-4-xuat-ten-chuan-hoa-cap-đo-4",
+            "children": []
+          }
+        ]
+      }
+    ],
+    "path": "/post/2023/06/07/java-core-session6/",
     "pathLocale": "/",
     "extraFields": [],
     "layout": "Post"

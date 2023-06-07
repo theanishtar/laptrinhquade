@@ -182,13 +182,13 @@ bool <span class="token operator">=</span> <span class="token boolean">true</spa
 </code></pre></div></li>
 <li>
 <p>Viết hoa toàn bộ ghi đặt tên biến là hằng số và sử dụng <strong>final</strong></p>
-<div class="language-java ext-java"><pre v-pre class="language-java"><code><span class="token keyword">final</span> <span class="token keyword">float</span> PI <span class="token operator">=</span> <span class="token number">3.14f</span><span class="token punctuation">;</span>
-<span class="token keyword">final</span> <span class="token keyword">int</span> SOTUCHON <span class="token operator">=</span> <span class="token number">123</span><span class="token punctuation">;</span>
+<div class="language-java ext-java"><pre v-pre class="language-java"><code><span class="token keyword">final</span> <span class="token keyword">float</span> <span class="token constant">PI</span> <span class="token operator">=</span> <span class="token number">3.14f</span><span class="token punctuation">;</span>
+<span class="token keyword">final</span> <span class="token keyword">int</span> <span class="token constant">SOTUCHON</span> <span class="token operator">=</span> <span class="token number">123</span><span class="token punctuation">;</span>
 </code></pre></div></li>
 </ul>
 <p>Nếu bạn không muốn chỉnh sửa biến đó về sau, cho nó là hằng số và chỉ được phép <em>đọc</em>, thì hãy dùng <strong>final</strong>:</p>
-<div class="language-java ext-java"><pre v-pre class="language-java"><code><span class="token keyword">final</span> <span class="token keyword">int</span> PI <span class="token operator">=</span> <span class="token number">3.14</span><span class="token punctuation">;</span>
-PI <span class="token operator">=</span> <span class="token number">3</span><span class="token punctuation">;</span> <span class="token comment">//hàm này sẽ lỗi vì PI không thể thay đổi</span>
+<div class="language-java ext-java"><pre v-pre class="language-java"><code><span class="token keyword">final</span> <span class="token keyword">int</span> <span class="token constant">PI</span> <span class="token operator">=</span> <span class="token number">3.14</span><span class="token punctuation">;</span>
+<span class="token constant">PI</span> <span class="token operator">=</span> <span class="token number">3</span><span class="token punctuation">;</span> <span class="token comment">//hàm này sẽ lỗi vì PI không thể thay đổi</span>
 </code></pre></div><hr>
 <h3 id="hien-thi-bien" tabindex="-1"><a class="header-anchor" href="#hien-thi-bien" aria-hidden="true">#</a> Hiển thị biến</h3>
 <p>Sử dụng <code v-pre>System.out.println</code> để hiển thị ra màn hình, và để kết hợp đoạn văn bản và biến hãy sử dụng dấu <code v-pre>+</code> như sau :</p>
@@ -405,4 +405,43 @@ PI <span class="token operator">=</span> <span class="token number">3</span><spa
 <p>Bạn không cần phải hiểu quá nhiều về vấn đề này</p>
 <p>Nếu bạn muốn tìm hiểu, hãy xem <a href="https://openplanning.net/12281/cac-toan-tu-bitwise" target="_blank" rel="noopener noreferrer">tại đây</a></p>
 </div>
+<h2 id="_5-bai-tap" tabindex="-1"><a class="header-anchor" href="#_5-bai-tap" aria-hidden="true">#</a> 5. Bài tập</h2>
+<p>Nếu bạn chưa biết gì về Java có thể note các bài này và giải quyết sau, còn nếu đã từng học lập trình thì hãy xem qua và giải thử nhé</p>
+<h3 id="tinh-lai-xuat-kep-trong" tabindex="-1"><a class="header-anchor" href="#tinh-lai-xuat-kep-trong" aria-hidden="true">#</a> Tính lãi xuất kép trong</h3>
+<p>Trong bài này chúng ta sẽ viết một chương trình để tính lãi xuất kép bằng ngôn ngữ Java, đây là công thức được sử dụng nhiều trong ngành kế toán tài chính.</p>
+<div class="custom-container info"><svg viewBox="0 0 25 25" xmlns="http://www.w3.org/2000/svg" xml:space="preserve" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2"><path d="M13 1.188C6.477 1.188 1.188 6.477 1.188 13S6.477 24.813 13 24.813 24.813 19.523 24.813 13c0-6.523-5.29-11.812-11.813-11.812Zm2.459 18.307c-.608.24-1.092.422-1.455.548a3.838 3.838 0 0 1-1.262.189c-.736 0-1.309-.18-1.717-.539a1.74 1.74 0 0 1-.611-1.367c0-.215.015-.435.045-.659a8.23 8.23 0 0 1 .147-.759l.761-2.688c.067-.258.125-.503.171-.731.046-.23.068-.441.068-.633 0-.342-.071-.582-.212-.717-.143-.135-.412-.201-.813-.201-.196 0-.398.029-.605.09-.205.063-.383.12-.529.176l.201-.828c.498-.203.975-.377 1.43-.521a4.225 4.225 0 0 1 1.29-.218c.731 0 1.295.178 1.692.53.395.353.594.812.594 1.376 0 .117-.014.323-.041.617a4.129 4.129 0 0 1-.152.811l-.757 2.68a7.582 7.582 0 0 0-.167.736 3.892 3.892 0 0 0-.073.626c0 .356.079.599.239.728.158.129.435.194.827.194.185 0 .392-.033.626-.097.232-.064.4-.121.506-.17l-.203.827Zm-.134-10.878a1.807 1.807 0 0 1-1.275.492c-.496 0-.924-.164-1.28-.492a1.57 1.57 0 0 1-.533-1.193c0-.465.18-.865.533-1.196a1.812 1.812 0 0 1 1.28-.497c.497 0 .923.165 1.275.497.353.331.53.731.53 1.196 0 .467-.177.865-.53 1.193Z" style="fill:#157ffb;fill-rule:nonzero" transform="translate(-1.257 -1.257) scale(1.0582)"/></svg><p class="custom-container-title">INFO</p>
+<p>P (1 + R/n) (nt) - P</p>
+</div>
+<p>Ở đây chúng ta có :</p>
+<p>P là số tiền gốc.
+R là lãi xuất hàng năm.
+t là thời gian tiền được đầu tư hoặc vay.
+n là số lần lãi được gộp trên mỗi đơn vị t, nếu lãi được gộp hàng tháng và t tính bằng năm thì n bằng 12. Nếu lãi được gộp hành quý và t tính bằng năm thì n bằng 4.
+Trước khi bắt đầu hãy cùng xem qua một ví dụ thực tế dưới đây:</p>
+<p>Ví dụ thực tế: Chúng ta có một khoản tiền 2000$ được gửi vào ngân hàng dưới dạng tiền gửi cố định với lãi xuất hàng năm là 8%, cộng gộp hàng tháng, lãi kép sau 5 năm sẽ là:</p>
+<p>Bài viết này được đăng tại [free tuts .net]</p>
+<p>P = 2000</p>
+<p>R = 8/100 = 0.08</p>
+<p>n = 12</p>
+<p>t = 5</p>
+<p>Lãi kép = 2000(1 + 0.08 / 12)(12 x 5) - 2000 = 979.69$.</p>
+<details class="custom-container details"><summary>Bài giải</summary>
+<div class="language-java ext-java"><pre v-pre class="language-java"><code><span class="token keyword">public</span> <span class="token keyword">class</span> <span class="token class-name">TinhLaiKep</span> <span class="token punctuation">{</span>
+    <span class="token keyword">public</span> <span class="token keyword">void</span> <span class="token function">calculate</span><span class="token punctuation">(</span><span class="token keyword">int</span> p<span class="token punctuation">,</span> <span class="token keyword">int</span> t<span class="token punctuation">,</span> <span class="token keyword">double</span> r<span class="token punctuation">,</span> <span class="token keyword">int</span> n<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+        <span class="token keyword">double</span> amount <span class="token operator">=</span> p <span class="token operator">*</span> <span class="token class-name">Math</span><span class="token punctuation">.</span><span class="token function">pow</span><span class="token punctuation">(</span><span class="token number">1</span> <span class="token operator">+</span> <span class="token punctuation">(</span>r <span class="token operator">/</span> n<span class="token punctuation">)</span><span class="token punctuation">,</span> n <span class="token operator">*</span> t<span class="token punctuation">)</span><span class="token punctuation">;</span>
+        <span class="token keyword">double</span> cinterest <span class="token operator">=</span> amount <span class="token operator">-</span> p<span class="token punctuation">;</span>
+        <span class="token class-name">System</span><span class="token punctuation">.</span>out<span class="token punctuation">.</span><span class="token function">println</span><span class="token punctuation">(</span><span class="token string">"Lãi kép sau "</span> <span class="token operator">+</span> t <span class="token operator">+</span> <span class="token string">" năm là : "</span><span class="token operator">+</span>cinterest<span class="token punctuation">)</span><span class="token punctuation">;</span>
+        <span class="token class-name">System</span><span class="token punctuation">.</span>out<span class="token punctuation">.</span><span class="token function">println</span><span class="token punctuation">(</span><span class="token string">"Số tiền có được sau "</span> <span class="token operator">+</span> t <span class="token operator">+</span> <span class="token string">" năm là: "</span><span class="token operator">+</span>amount<span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token punctuation">}</span>
+    <span class="token keyword">public</span> <span class="token keyword">static</span> <span class="token keyword">void</span> <span class="token function">main</span><span class="token punctuation">(</span><span class="token class-name">String</span> args<span class="token punctuation">[</span><span class="token punctuation">]</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+        <span class="token class-name">TinhLaiKep</span> obj <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token class-name">TinhLaiKep</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+        obj<span class="token punctuation">.</span><span class="token function">calculate</span><span class="token punctuation">(</span><span class="token number">2000</span><span class="token punctuation">,</span> <span class="token number">5</span><span class="token punctuation">,</span> <span class="token number">.08</span><span class="token punctuation">,</span> <span class="token number">12</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token punctuation">}</span>
+<span class="token punctuation">}</span>
+
+<span class="token comment">/* Output:
+	Lãi kép sau 5 năm là: 979.102
+	Số tiền có được sau 5 năm là: 2979.321
+*/</span>
+</code></pre></div></details>
 </div></template>

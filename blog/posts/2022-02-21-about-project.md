@@ -6,7 +6,7 @@ author: Theanishtar
 date: 2022-02-21
 useHeaderImage: true
 headerImage: /img/in-post/2018-09-01/header.jpeg
-headerMask: rgb(67, 65, 47, .2)
+headerMask: rgba(69, 81, 132, 0.5)
 permalinkPattern: /post/:year/:month/:day/:slug/
 tags:
   - Giới thiệu

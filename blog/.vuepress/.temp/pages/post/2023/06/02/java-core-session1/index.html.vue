@@ -53,7 +53,7 @@
 <li>Mở <strong>Terminal</strong> nếu bạn sử dụng <strong>Linux</strong> hoặc <strong>MacOS</strong></li>
 </ul>
 <p>Và hãy gõ :</p>
-<div class="language-bash ext-sh"><pre v-pre class="language-bash"><code>java --version
+<div class="language-bash ext-sh"><pre v-pre class="language-bash"><code><span class="token function">java</span> <span class="token parameter variable">--version</span>
 </code></pre></div><p><img src="https://raw.githubusercontent.com/Zenfection/Image/master/2021/01/29-09-20-59-Ảnh chụp Màn hình 2021-01-29 lúc 09.18.33.png" alt="Ảnh chụp Màn hình 2021-01-29 lúc 09.18.33.png"></p>
 <blockquote>
 <p>🔥 Nó hiện ra phiên bản <strong>15.0.2</strong> (<em>có thể phiên bản khác</em>) như trên thì bạn đã thành công rồi đấy.</p>

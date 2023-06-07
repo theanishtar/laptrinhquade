@@ -6,7 +6,7 @@ author: Theanishtar
 date: 2023-06-02
 useHeaderImage: true
 headerImage: /img/in-post/2020-08-24/header.jpg
-headerMask: rgb(67, 65, 47, .2)
+headerMask: rgba(39, 71, 77, 0.61)
 permalinkPattern: /post/:year/:month/:day/:slug/
 tags:
   - Java Core
@@ -101,13 +101,13 @@ default:
  - Có thể gộp nhiều **case** lại, như **case 1,2,3:**
 :::
 
-## Bài tập 
+## 3. Bài tập 
 Cùng mình giải quyết các bài tập sau nhé, để hiệu quả hơn bạn nên code trước rồi quay lại xem kết quả có giống mình không nha
 ### If..Else
 #### Kiểm tra số N nhập từ bàn phím là số âm hay dương.
 ::: details Cách 1: Sử dụng If..Else lồng nhau 
 ``` java
-public class CauLenhReNhanh1 {
+public class CauLenhReNhanh {
 
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
@@ -134,7 +134,7 @@ public class CauLenhReNhanh1 {
 
 ::: details Cách 2: Sử dụng If..Else if..Else 
 ``` java
-public class CauLenhReNhanh1 {
+public class CauLenhReNhanh {
 
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
@@ -156,10 +156,68 @@ public class CauLenhReNhanh1 {
 ```
 :::
 
+#### Kiểm tra số chẵn hay số lẻ
+
+:::details Bài giải
+```java
+public class KiemTraSoChanLe {
+    public static void main(String[] args) {
+        int n = 10;
+        if(n%2==0)
+        {
+            System.out.println("Đây là số chẵn!");
+        }
+        else
+        {
+            System.out.println("Đây là số lẻ!");
+        }
+    }
+}
+```
+:::
+
+
+#### Kiểm tra năm nhuận
+:::details Bài giải
+```java
+import java.util.Scanner;
+public class NamNhuan {
+    public static void main(String[] args) {
+        int year;
+        Scanner scan = new Scanner(System.in);
+        System.out.println("Nhập vào năm bạn cần kiểm tra:");
+        year = scan.nextInt();
+        scan.close();
+        boolean isLeap = false;
+        if(year % 4 == 0)//chia hết cho 4 là năm nhuận
+        {
+            if( year % 100 == 0)
+            //nếu vừa chia hết cho 4 mà vừa chia hết cho 100 thì không phải năm nhuận
+            {
+                if ( year % 400 == 0)//chia hết cho 400 là năm nhuận
+                    isLeap = true;
+                else
+                    isLeap = false;//không chia hết cho 400 thì không phải năm nhuận
+            }
+            else//chia hết cho 4 nhưng không chia hết cho 100 là năm nhuận
+                isLeap = true;
+        }
+        else {
+            isLeap = false;
+        }
+        if(isLeap==true)
+            System.out.println(year + " là năm nhuận.");
+        else
+            System.out.println(year + " không phải là năm nhuận.");
+    }
+}
+```
+:::
 
 ### Switch..Case
-#### Nhập vào số a, nếu 0<=a<=10 xuất ra phát âm của số đó, ngược lại xuất ra "khong doc duoc"
-::: details Cách 2: Sử dụng If..ElseIf..Else 
+#### Đọc số từ 0 đến 10
+Nhập vào số a, nếu 0<=a<=10 xuất ra phát âm của số đó, ngược lại xuất ra "khong doc duoc"
+::: details Bài giải
 ``` java
 public class CauLenhReNhanh {
 

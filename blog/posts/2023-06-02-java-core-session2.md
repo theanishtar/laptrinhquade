@@ -6,7 +6,7 @@ author: Theanishtar
 date: 2023-06-02
 useHeaderImage: true
 headerImage: /img/in-post/2020-02-24/header.jpg
-headerMask: rgb(67, 65, 47, .2)
+headerMask: rgba(39, 62, 77, 0.61)
 permalinkPattern: /post/:year/:month/:day/:slug/
 tags:
   - Java Core
@@ -294,3 +294,56 @@ Có các loại toán tử sau :
  Nếu bạn muốn tìm hiểu, hãy xem [tại đây](https://openplanning.net/12281/cac-toan-tu-bitwise)
 :::
 
+## 5. Bài tập
+
+Nếu bạn chưa biết gì về Java có thể note các bài này và giải quyết sau, còn nếu đã từng học lập trình thì hãy xem qua và giải thử nhé
+
+### Tính lãi xuất kép trong
+Trong bài này chúng ta sẽ viết một chương trình để tính lãi xuất kép bằng ngôn ngữ Java, đây là công thức được sử dụng nhiều trong ngành kế toán tài chính.
+:::info
+P (1 + R/n) (nt) - P
+:::
+Ở đây chúng ta có :
+
+P là số tiền gốc.
+R là lãi xuất hàng năm.
+t là thời gian tiền được đầu tư hoặc vay.
+n là số lần lãi được gộp trên mỗi đơn vị t, nếu lãi được gộp hàng tháng và t tính bằng năm thì n bằng 12. Nếu lãi được gộp hành quý và t tính bằng năm thì n bằng 4.
+Trước khi bắt đầu hãy cùng xem qua một ví dụ thực tế dưới đây:
+
+Ví dụ thực tế: Chúng ta có một khoản tiền 2000$ được gửi vào ngân hàng dưới dạng tiền gửi cố định với lãi xuất hàng năm là 8%, cộng gộp hàng tháng, lãi kép sau 5 năm sẽ là:
+
+Bài viết này được đăng tại [free tuts .net]
+
+P = 2000
+
+R = 8/100 = 0.08
+
+n = 12
+
+t = 5
+
+Lãi kép = 2000(1 + 0.08 / 12)(12 x 5) - 2000 = 979.69$.
+
+
+:::details Bài giải
+```java
+public class TinhLaiKep {
+    public void calculate(int p, int t, double r, int n) {
+        double amount = p * Math.pow(1 + (r / n), n * t);
+        double cinterest = amount - p;
+        System.out.println("Lãi kép sau " + t + " năm là : "+cinterest);
+        System.out.println("Số tiền có được sau " + t + " năm là: "+amount);
+    }
+    public static void main(String args[]) {
+        TinhLaiKep obj = new TinhLaiKep();
+        obj.calculate(2000, 5, .08, 12);
+    }
+}
+
+/* Output:
+	Lãi kép sau 5 năm là: 979.102
+	Số tiền có được sau 5 năm là: 2979.321
+*/
+```
+:::
