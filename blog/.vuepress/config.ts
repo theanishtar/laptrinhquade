@@ -231,10 +231,9 @@ export default defineUserConfig({
 		],
 
 		footer: `
-      &copy; <a href="https://github.com/Theanishtar" target="_blank">Theanishtar</a> 2023
+      &copy; <a href="https://github.com/Theanishtar" target="_blank">Tran Huu Dang</a> 2023
       <br>
-      Powered by <a href="" target="_blank">Vue</a> &
-      <a href="" target="_blank">Gungnir</a>
+      Powered by <a href="https://vuejs.org/" target="_blank">VueJS
     `
 	}),
 

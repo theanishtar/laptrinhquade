@@ -6,10 +6,8 @@ import clientConfig4 from 'C:/Users/ADMIN/Desktop/git/dangtranhuu/Angurvad/node_
 import clientConfig5 from 'C:/Users/ADMIN/Desktop/git/dangtranhuu/Angurvad/node_modules/@renovamen/vuepress-plugin-katex/lib/client/config.js'
 import clientConfig6 from 'C:/Users/ADMIN/Desktop/git/dangtranhuu/Angurvad/node_modules/vuepress-plugin-code-enhance/lib/client/config.js'
 import clientConfig7 from 'C:/Users/ADMIN/Desktop/git/dangtranhuu/Angurvad/node_modules/vuepress-plugin-giscus/lib/client/config.js'
-import clientConfig8 from 'C:/Users/ADMIN/Desktop/git/dangtranhuu/Angurvad/node_modules/@vuepress/plugin-google-analytics/lib/client/config.js'
-import clientConfig9 from 'C:/Users/ADMIN/Desktop/git/dangtranhuu/Angurvad/node_modules/@renovamen/vuepress-plugin-baidu-tongji/lib/client/config.js'
-import clientConfig10 from 'C:/Users/ADMIN/Desktop/git/dangtranhuu/Angurvad/node_modules/vuepress-theme-gungnir/lib/client/config.js'
-import clientConfig11 from 'C:/Users/ADMIN/Desktop/git/dangtranhuu/Angurvad/blog/.vuepress/client.ts'
+import clientConfig8 from 'C:/Users/ADMIN/Desktop/git/dangtranhuu/Angurvad/node_modules/vuepress-theme-gungnir/lib/client/config.js'
+import clientConfig9 from 'C:/Users/ADMIN/Desktop/git/dangtranhuu/Angurvad/blog/.vuepress/client.ts'
 
 export const clientConfigs = [
   clientConfig0,
@@ -22,6 +20,4 @@ export const clientConfigs = [
   clientConfig7,
   clientConfig8,
   clientConfig9,
-  clientConfig10,
-  clientConfig11,
 ]

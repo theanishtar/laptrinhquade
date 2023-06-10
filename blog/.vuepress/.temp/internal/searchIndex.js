@@ -127,14 +127,6 @@ export const searchIndex = [
     "extraFields": []
   },
   {
-    "title": "Links",
-    "headers": [],
-    "path": "/tech/",
-    "pathLocale": "/",
-    "extraFields": [],
-    "layout": "Links"
-  },
-  {
     "title": "Tìm hiểu về mình",
     "subtitle": "Mình là ai?",
     "headers": [
@@ -223,160 +215,174 @@ export const searchIndex = [
     "layout": "Post"
   },
   {
-    "title": "Tìm hiểu về NodeJS và xử lý request đơn giản",
-    "subtitle": "Lập trình NodeJS",
-    "headers": [
-      {
-        "level": 2,
-        "title": "Nội dung chính",
-        "slug": "noi-dung-chinh",
-        "children": []
-      }
-    ],
-    "path": "/post/2023/05/31/nodejs-session1/",
+    "title": "Links",
+    "headers": [],
+    "path": "/tech/",
     "pathLocale": "/",
     "extraFields": [],
-    "layout": "Post"
+    "layout": "Links"
   },
   {
-    "title": "Tìm hiểu về Ejs - view engine temple tiện lợi của NodeJS",
-    "subtitle": "Lập trình NodeJS",
+    "title": "Giới thiệu về cấu trúc dữ liệu và giải thuật",
+    "subtitle": "Cấu trúc dữ liệu và giải thuật",
     "headers": [
       {
         "level": 2,
-        "title": "Nội dung chính",
-        "slug": "noi-dung-chinh",
-        "children": []
-      }
-    ],
-    "path": "/post/2023/05/31/nodejs-session2/",
-    "pathLocale": "/",
-    "extraFields": [],
-    "layout": "Post"
-  },
-  {
-    "title": "Xử lí các params trong đối tượng form bằng NodeJS",
-    "subtitle": "Lập trình NodeJS",
-    "headers": [
-      {
-        "level": 2,
-        "title": "Nội dung chính",
-        "slug": "noi-dung-chinh",
-        "children": []
-      }
-    ],
-    "path": "/post/2023/05/31/nodejs-session3/",
-    "pathLocale": "/",
-    "extraFields": [],
-    "layout": "Post"
-  },
-  {
-    "title": "Tạo tính năng CRUD bằng NodeJS",
-    "subtitle": "Lập trình NodeJS",
-    "headers": [
-      {
-        "level": 2,
-        "title": "Nội dung chính",
-        "slug": "noi-dung-chinh",
-        "children": []
-      }
-    ],
-    "path": "/post/2023/05/31/nodejs-session4/",
-    "pathLocale": "/",
-    "extraFields": [],
-    "layout": "Post"
-  },
-  {
-    "title": "Restfull API đơn giản với NodeJS",
-    "subtitle": "Lập trình NodeJS",
-    "headers": [
-      {
-        "level": 2,
-        "title": "Các quy định http method trong restful",
-        "slug": "cac-quy-đinh-http-method-trong-restful",
+        "title": "DSA là gì?",
+        "slug": "dsa-la-gi",
         "children": []
       },
       {
         "level": 2,
-        "title": "Khi request đến một tài nguyên, các status code sẽ trả về client :",
-        "slug": "khi-request-đen-mot-tai-nguyen-cac-status-code-se-tra-ve-client",
+        "title": "Cấu trúc dữ liệu là gì?",
+        "slug": "cau-truc-du-lieu-la-gi",
         "children": []
       },
       {
         "level": 2,
-        "title": "Thực hiện restful api trong nodejs",
-        "slug": "thuc-hien-restful-api-trong-nodejs",
+        "title": "Thuật toán là gì?",
+        "slug": "thuat-toan-la-gi",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "Làm thế nào để bắt đầu học DSA?",
+        "slug": "lam-the-nao-đe-bat-đau-hoc-dsa",
         "children": [
           {
             "level": 3,
-            "title": "Chuẩn bị database",
-            "slug": "chuan-bi-database",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "Cài module express và express-generator",
-            "slug": "cai-module-express-va-express-generator",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "Tạo project để thực tập",
-            "slug": "tao-project-đe-thuc-tap",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "Tạo model kết nối db",
-            "slug": "tao-model-ket-noi-db",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "Tạo route",
-            "slug": "tao-route",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "Thực hiện chức năng danh sách record",
-            "slug": "thuc-hien-chuc-nang-danh-sach-record",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "Thực hiện lấy chi tiết record",
-            "slug": "thuc-hien-lay-chi-tiet-record",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "Thực hiện chức năng thêm record",
-            "slug": "thuc-hien-chuc-nang-them-record",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "Thực hiện chức năng cập nhật record",
-            "slug": "thuc-hien-chuc-nang-cap-nhat-record",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "Thực hiện chức năng xóa record",
-            "slug": "thuc-hien-chuc-nang-xoa-record",
+            "title": "1. Tìm hiểu về Sự phức tạp",
+            "slug": "_1-tim-hieu-ve-su-phuc-tap",
             "children": []
           }
         ]
+      },
+      {
+        "level": 2,
+        "title": "Tổng kết",
+        "slug": "tong-ket",
+        "children": []
       }
     ],
-    "path": "/post/2023/05/31/nodejs-session5/",
+    "path": "/ebook/dsa/session1/",
     "pathLocale": "/",
     "extraFields": [],
     "layout": "Post"
   },
   {
-    "title": "Giới thiệu về Java Core",
+    "title": "Cấu trúc danh sách đặc",
+    "subtitle": "Cấu trúc dữ liệu và giải thuật",
+    "headers": [
+      {
+        "level": 2,
+        "title": "Danh sách đặc là gì?",
+        "slug": "danh-sach-đac-la-gi",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "Mảng",
+        "slug": "mang",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "Chuỗi",
+        "slug": "chuoi",
+        "children": []
+      }
+    ],
+    "path": "/ebook/dsa/session2/",
+    "pathLocale": "/",
+    "extraFields": [],
+    "layout": "Post"
+  },
+  {
+    "title": "Danh sách liên kết",
+    "subtitle": "Cấu trúc dữ liệu và giải thuật",
+    "headers": [
+      {
+        "level": 2,
+        "title": "Danh sách liên kết là gì?",
+        "slug": "danh-sach-lien-ket-la-gi",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "Tại sao cần cấu trúc dữ liệu danh sách liên kết?",
+        "slug": "tai-sao-can-cau-truc-du-lieu-danh-sach-lien-ket",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "Các loại danh sách liên kết:",
+        "slug": "cac-loai-danh-sach-lien-ket",
+        "children": [
+          {
+            "level": 3,
+            "title": "1. Danh sách liên kết đơn:",
+            "slug": "_1-danh-sach-lien-ket-đon",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "2. Danh sách liên kết kép:",
+            "slug": "_2-danh-sach-lien-ket-kep",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "3. Danh mục liên kết thông tư:",
+            "slug": "_3-danh-muc-lien-ket-thong-tu",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "Hoạt động trên danh sách liên kết",
+        "slug": "hoat-đong-tren-danh-sach-lien-ket",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "Ưu điểm của danh sách liên kết",
+        "slug": "uu-điem-cua-danh-sach-lien-ket",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "Thực hành",
+        "slug": "thuc-hanh",
+        "children": [
+          {
+            "level": 3,
+            "title": "Sử dụng linkedList.h",
+            "slug": "su-dung-linkedlist-h",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "Sử dụng sentenceList.h",
+            "slug": "su-dung-sentencelist-h",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "Kết thúc:",
+        "slug": "ket-thuc",
+        "children": []
+      }
+    ],
+    "path": "/ebook/dsa/session3/",
+    "pathLocale": "/",
+    "extraFields": [],
+    "layout": "Post"
+  },
+  {
+    "title": "Bài 1. Giới thiệu về Java Core",
     "subtitle": "Lập trình Java căn bản",
     "headers": [
       {
@@ -434,13 +440,13 @@ export const searchIndex = [
         "children": []
       }
     ],
-    "path": "/post/2023/06/02/java-core-session1/",
+    "path": "/ebook/java-core/session1/",
     "pathLocale": "/",
     "extraFields": [],
     "layout": "Post"
   },
   {
-    "title": "Sử dụng biến, toán tử và các kiểu dữ liệu trong Java",
+    "title": "Bài 2. Sử dụng biến, toán tử và các kiểu dữ liệu trong Java",
     "subtitle": "Lập trình Java căn bản",
     "headers": [
       {
@@ -545,13 +551,13 @@ export const searchIndex = [
         ]
       }
     ],
-    "path": "/post/2023/06/02/java-core-session2/",
+    "path": "/ebook/java-core/session2/",
     "pathLocale": "/",
     "extraFields": [],
     "layout": "Post"
   },
   {
-    "title": "Cấu trúc rẽ nhánh trong Java",
+    "title": "Bài 3. Cấu trúc rẽ nhánh trong Java",
     "subtitle": "Lập trình Java căn bản",
     "headers": [
       {
@@ -624,13 +630,13 @@ export const searchIndex = [
         "children": []
       }
     ],
-    "path": "/post/2023/06/02/java-core-session3/",
+    "path": "/ebook/java-core/session3/",
     "pathLocale": "/",
     "extraFields": [],
     "layout": "Post"
   },
   {
-    "title": "Vòng lặp trong Java",
+    "title": "Bài 4. Vòng lặp trong Java",
     "subtitle": "Lập trình Java căn bản",
     "headers": [
       {
@@ -708,13 +714,13 @@ export const searchIndex = [
         ]
       }
     ],
-    "path": "/post/2023/06/02/java-core-session4/",
+    "path": "/ebook/java-core/session4/",
     "pathLocale": "/",
     "extraFields": [],
     "layout": "Post"
   },
   {
-    "title": "Mảng trong Java",
+    "title": "Bài 5. Mảng trong Java",
     "subtitle": "Lập trình Java căn bản",
     "headers": [
       {
@@ -818,13 +824,13 @@ export const searchIndex = [
         ]
       }
     ],
-    "path": "/post/2023/06/05/java-core-session5/",
+    "path": "/ebook/java-core/session5/",
     "pathLocale": "/",
     "extraFields": [],
     "layout": "Post"
   },
   {
-    "title": "Chuỗi trong Java",
+    "title": "Bài 6. Chuỗi trong Java",
     "subtitle": "Lập trình Java căn bản",
     "headers": [
       {
@@ -940,7 +946,390 @@ export const searchIndex = [
         ]
       }
     ],
-    "path": "/post/2023/06/07/java-core-session6/",
+    "path": "/ebook/java-core/session6/",
+    "pathLocale": "/",
+    "extraFields": [],
+    "layout": "Post"
+  },
+  {
+    "title": "Bài 7. Phương thức trong Java",
+    "subtitle": "Lập trình Java căn bản",
+    "headers": [
+      {
+        "level": 2,
+        "title": "1. Khái niệm",
+        "slug": "_1-khai-niem",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "2. Khai báo",
+        "slug": "_2-khai-bao",
+        "children": [
+          {
+            "level": 3,
+            "title": "Phương thức không có dữ liệu trả về",
+            "slug": "phuong-thuc-khong-co-du-lieu-tra-ve",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "Phương thức có dữ liệu trả về",
+            "slug": "phuong-thuc-co-du-lieu-tra-ve",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "3. Tham số và đối số trong phương thức",
+        "slug": "_3-tham-so-va-đoi-so-trong-phuong-thuc",
+        "children": [
+          {
+            "level": 3,
+            "title": "Tham số",
+            "slug": "tham-so",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "Đối số",
+            "slug": "đoi-so",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "4. Giá trị trả về",
+        "slug": "_4-gia-tri-tra-ve",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "5. Phạm vi của biến",
+        "slug": "_5-pham-vi-cua-bien",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "6. Hàm đệ quy",
+        "slug": "_6-ham-đe-quy",
+        "children": [
+          {
+            "level": 3,
+            "title": "Thành phần trong hàm đệ quy gồm những gì?",
+            "slug": "thanh-phan-trong-ham-đe-quy-gom-nhung-gi",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "Các ưu điểm, hạn chế và điều kiện để thực hiện đệ quy",
+            "slug": "cac-uu-điem-han-che-va-đieu-kien-đe-thuc-hien-đe-quy",
+            "children": [
+              {
+                "level": 4,
+                "title": "Ưu điểm của đệ quy",
+                "slug": "uu-điem-cua-đe-quy",
+                "children": []
+              },
+              {
+                "level": 4,
+                "title": "Về nhược điểm của đệ quy",
+                "slug": "ve-nhuoc-điem-cua-đe-quy",
+                "children": []
+              }
+            ]
+          },
+          {
+            "level": 3,
+            "title": "Để viết được đệ quy cần đảm bảo yếu tố gì?",
+            "slug": "đe-viet-đuoc-đe-quy-can-đam-bao-yeu-to-gi",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "Ứng dụng cụ thể của Đệ quy",
+            "slug": "ung-dung-cu-the-cua-đe-quy",
+            "children": []
+          }
+        ]
+      }
+    ],
+    "path": "/ebook/java-core/session7/",
+    "pathLocale": "/",
+    "extraFields": [],
+    "layout": "Post"
+  },
+  {
+    "title": "Tổng kết. Bài tập cuối môn Java căn bản",
+    "subtitle": "Lập trình Java căn bản",
+    "headers": [
+      {
+        "level": 2,
+        "title": "1. Đề bài",
+        "slug": "_1-đe-bai",
+        "children": []
+      }
+    ],
+    "path": "/ebook/java-core/session8/",
+    "pathLocale": "/",
+    "extraFields": [],
+    "layout": "Post"
+  },
+  {
+    "title": "Giới thiệu về lập trình hướng đối tượng trong Java",
+    "subtitle": "Lập trình hướng đối tượng với Java",
+    "headers": [
+      {
+        "level": 2,
+        "title": "1. Khái niệm",
+        "slug": "_1-khai-niem",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "2. Phân biệt lập trình cấu trúc và hướng đối tượng",
+        "slug": "_2-phan-biet-lap-trinh-cau-truc-va-huong-đoi-tuong",
+        "children": [
+          {
+            "level": 3,
+            "title": "Lập trình cấu trúc là gì",
+            "slug": "lap-trinh-cau-truc-la-gi",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "Tại sao hướng đối tượng có ưu thế hơn",
+            "slug": "tai-sao-huong-đoi-tuong-co-uu-the-hon",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "3. Lập trình hướng đối tượng",
+        "slug": "_3-lap-trinh-huong-đoi-tuong",
+        "children": [
+          {
+            "level": 3,
+            "title": "Ví dụ:",
+            "slug": "vi-du",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "4. Biểu diễn bằng code",
+        "slug": "_4-bieu-dien-bang-code",
+        "children": [
+          {
+            "level": 3,
+            "title": "Tạo project",
+            "slug": "tao-project",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "Tạo lớp đối tượng",
+            "slug": "tao-lop-đoi-tuong",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "Tạo thuộc tính cho đối tượng",
+            "slug": "tao-thuoc-tinh-cho-đoi-tuong",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "Tạo phương thức cho đối tượng",
+            "slug": "tao-phuong-thuc-cho-đoi-tuong",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "Tạo đối tượng từ lớp khác",
+            "slug": "tao-đoi-tuong-tu-lop-khac",
+            "children": [
+              {
+                "level": 4,
+                "title": "Gọi lại đối tượng",
+                "slug": "goi-lai-đoi-tuong",
+                "children": []
+              },
+              {
+                "level": 4,
+                "title": "Xuất giá trị thuộc tính",
+                "slug": "xuat-gia-tri-thuoc-tinh",
+                "children": []
+              },
+              {
+                "level": 4,
+                "title": "Gọi phương thức của đối tượng",
+                "slug": "goi-phuong-thuc-cua-đoi-tuong",
+                "children": []
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "path": "/ebook/java-oop/session1/",
+    "pathLocale": "/",
+    "extraFields": [],
+    "layout": "Post"
+  },
+  {
+    "title": "Tìm hiểu về NodeJS và xử lý request đơn giản",
+    "subtitle": "Lập trình NodeJS",
+    "headers": [
+      {
+        "level": 2,
+        "title": "Nội dung chính",
+        "slug": "noi-dung-chinh",
+        "children": []
+      }
+    ],
+    "path": "/ebook/nodejs/session1/",
+    "pathLocale": "/",
+    "extraFields": [],
+    "layout": "Post"
+  },
+  {
+    "title": "Tìm hiểu về Ejs - view engine template tiện lợi của NodeJS",
+    "subtitle": "Lập trình NodeJS",
+    "headers": [
+      {
+        "level": 2,
+        "title": "Nội dung chính",
+        "slug": "noi-dung-chinh",
+        "children": []
+      }
+    ],
+    "path": "/ebook/nodejs/session2/",
+    "pathLocale": "/",
+    "extraFields": [],
+    "layout": "Post"
+  },
+  {
+    "title": "Xử lí các params trong đối tượng form bằng NodeJS",
+    "subtitle": "Lập trình NodeJS",
+    "headers": [
+      {
+        "level": 2,
+        "title": "Nội dung chính",
+        "slug": "noi-dung-chinh",
+        "children": []
+      }
+    ],
+    "path": "/ebook/nodejs/session3/",
+    "pathLocale": "/",
+    "extraFields": [],
+    "layout": "Post"
+  },
+  {
+    "title": "Tạo tính năng CRUD bằng NodeJS",
+    "subtitle": "Lập trình NodeJS",
+    "headers": [
+      {
+        "level": 2,
+        "title": "Nội dung chính",
+        "slug": "noi-dung-chinh",
+        "children": []
+      }
+    ],
+    "path": "/ebook/nodejs/session4/",
+    "pathLocale": "/",
+    "extraFields": [],
+    "layout": "Post"
+  },
+  {
+    "title": "Restfull API đơn giản với NodeJS",
+    "subtitle": "Lập trình NodeJS",
+    "headers": [
+      {
+        "level": 2,
+        "title": "Các quy định http method trong restful",
+        "slug": "cac-quy-đinh-http-method-trong-restful",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "Khi request đến một tài nguyên, các status code sẽ trả về client :",
+        "slug": "khi-request-đen-mot-tai-nguyen-cac-status-code-se-tra-ve-client",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "Thực hiện restful api trong nodejs",
+        "slug": "thuc-hien-restful-api-trong-nodejs",
+        "children": [
+          {
+            "level": 3,
+            "title": "Chuẩn bị database",
+            "slug": "chuan-bi-database",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "Cài module express và express-generator",
+            "slug": "cai-module-express-va-express-generator",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "Tạo project để thực tập",
+            "slug": "tao-project-đe-thuc-tap",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "Tạo model kết nối db",
+            "slug": "tao-model-ket-noi-db",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "Tạo route",
+            "slug": "tao-route",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "Thực hiện chức năng danh sách record",
+            "slug": "thuc-hien-chuc-nang-danh-sach-record",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "Thực hiện lấy chi tiết record",
+            "slug": "thuc-hien-lay-chi-tiet-record",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "Thực hiện chức năng thêm record",
+            "slug": "thuc-hien-chuc-nang-them-record",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "Thực hiện chức năng cập nhật record",
+            "slug": "thuc-hien-chuc-nang-cap-nhat-record",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "Thực hiện chức năng xóa record",
+            "slug": "thuc-hien-chuc-nang-xoa-record",
+            "children": []
+          }
+        ]
+      }
+    ],
+    "path": "/ebook/nodejs/session5/",
     "pathLocale": "/",
     "extraFields": [],
     "layout": "Post"
@@ -978,6 +1367,46 @@ export const searchIndex = [
     "layout": "Tags"
   },
   {
+    "title": "Data structures | Tags",
+    "headers": [],
+    "path": "/tags/data-structures/",
+    "pathLocale": "/",
+    "extraFields": [],
+    "layout": "Tags"
+  },
+  {
+    "title": "Algorithms | Tags",
+    "headers": [],
+    "path": "/tags/algorithms/",
+    "pathLocale": "/",
+    "extraFields": [],
+    "layout": "Tags"
+  },
+  {
+    "title": "DSA | Tags",
+    "headers": [],
+    "path": "/tags/dsa/",
+    "pathLocale": "/",
+    "extraFields": [],
+    "layout": "Tags"
+  },
+  {
+    "title": "Java Core | Tags",
+    "headers": [],
+    "path": "/tags/java-core/",
+    "pathLocale": "/",
+    "extraFields": [],
+    "layout": "Tags"
+  },
+  {
+    "title": "Java OOP | Tags",
+    "headers": [],
+    "path": "/tags/java-oop/",
+    "pathLocale": "/",
+    "extraFields": [],
+    "layout": "Tags"
+  },
+  {
     "title": "NodeJS | Tags",
     "headers": [],
     "path": "/tags/nodejs/",
@@ -989,14 +1418,6 @@ export const searchIndex = [
     "title": "RestAPI | Tags",
     "headers": [],
     "path": "/tags/restapi/",
-    "pathLocale": "/",
-    "extraFields": [],
-    "layout": "Tags"
-  },
-  {
-    "title": "Java Core | Tags",
-    "headers": [],
-    "path": "/tags/java-core/",
     "pathLocale": "/",
     "extraFields": [],
     "layout": "Tags"
@@ -1018,3 +1439,16 @@ export const searchIndex = [
     "layout": "HomePage"
   }
 ]
+
+if (import.meta.webpackHot) {
+  import.meta.webpackHot.accept()
+  if (__VUE_HMR_RUNTIME__.updateSearchIndex) {
+    __VUE_HMR_RUNTIME__.updateSearchIndex(searchIndex)
+  }
+}
+
+if (import.meta.hot) {
+  import.meta.hot.accept(({ searchIndex }) => {
+    __VUE_HMR_RUNTIME__.updateSearchIndex(searchIndex)
+  })
+}
