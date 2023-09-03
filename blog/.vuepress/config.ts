@@ -195,7 +195,7 @@ export default defineUserConfig({
 			},
 			{
 				text: "Giới thiệu",
-				link: "/about/readme.md",
+				link: "/about",
 				icon: "fa-paw"  //"fa-paw"
 			},
 			{
@@ -225,12 +225,12 @@ export default defineUserConfig({
 						children: [
 							{
 								text: "Lập trình Java Core",
-								link: "/ebook/java/java-core/session1/",
-								icon: "fa-java"
+								link: "/java-core/",
+								icon: "vi-file-type-jar"
 							},
 							{
 								text: "Lập trình Hướng đối tượng với Java",
-								link: "/docs/intro.md",
+								link: "/java-oop/",
 								icon: "si-awslambda"
 							},
 						]
@@ -280,42 +280,38 @@ export default defineUserConfig({
 				icon: "si-codersrank",
 				children: [
 					{
-						text: "Lập trình C/C++",
+						text: "Lập trình FrontEnd",
 						link: "/docs/intro.md",
-						icon: "vi-file-type-cpp",
+						icon: "px-monitor",
 						children: []
 					},
 					{
-						text: "Lập trình Java",
-						icon: "la-java",
+						text: "Lập trình BackEnd",
+						icon: "fc-command-line ",
 						children: [
 							{
-								text: "Lập trình Java Core",
+								text: "Restful API với NodeJS",
 								link: "/ebook/java/java-core/session1/",
-								icon: "la-java"
+								icon: "vi-file-type-node"
 							},
 							{
-								text: "Lập trình Hướng đối tượng với Java",
+								text: "Restful API với SpringBoot",
 								link: "/docs/intro.md",
-								icon: "si-awslambda"
+								icon: "co-spring"
 							},
 						]
 					},
 					{
-						text: "Lập trình JavaScript",
+						text: "Lập trình DesktopApp",
 						// link: "/docs/intro.md",
 						icon: "vi-file-type-js",
 						children: [
 							{
-								text: "JavaScript cơ bản",
+								text: "Lập trình Java Swing",
 								link: "/docs/intro.md",
-								icon: "vi-file-type-js"
+								icon: "bi-filetype-java"
 							},
-							{
-								text: "JavaScript ES6",
-								link: "/docs/intro.md",
-								icon: "vi-file-type-light-jsmap"
-							},
+
 						]
 					},
 				]

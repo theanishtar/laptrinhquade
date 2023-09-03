@@ -15,7 +15,7 @@ import {
 	FaPaw,
 	AiCv,
 	AiGoogleScholarSquare,
-	LaJava,
+	ViFileTypeJar,
 	ViFileTypeJsp,
 	CoSpring,
 	RiCodeSSlashLine,
@@ -27,7 +27,11 @@ import {
 	ViFileTypeGit,
 	GiEvilBook,
 	GiPc,
-	SiCodersrank
+	SiCodersrank,
+	FcCommandLine,
+	PxMonitor,
+	ViFileTypeNode,
+	BiFiletypeJava
 } from "oh-vue-icons/icons";
 
 addIcons(
@@ -45,7 +49,7 @@ addIcons(
 	FaPaw,
 	AiCv,
 	AiGoogleScholarSquare,
-	LaJava,
+	ViFileTypeJar,
 	ViFileTypeJsp,
 	CoSpring,
 	RiCodeSSlashLine,
@@ -57,7 +61,12 @@ addIcons(
 	ViFileTypeGit,
 	GiEvilBook,
 	GiPc,
-	SiCodersrank
+	SiCodersrank,
+	FcCommandLine,
+	PxMonitor,
+	ViFileTypeNode,
+	ViFileTypeJar,
+	BiFiletypeJava
 );
 
 export default defineClientConfig({});
