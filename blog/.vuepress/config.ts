@@ -215,9 +215,15 @@ export default defineUserConfig({
 				children: [
 					{
 						text: "Lập trình C/C++",
-						link: "/docs/intro.md",
-						icon: "vi-file-type-cpp",
-						children: []
+						// link: "/docs/intro.md",
+						// icon: "vi-file-type-cpp",
+						children: [
+							{
+								text: "Lập trình C",
+								link: "/c/",
+								icon: "vi-file-type-cpp"
+							},
+						]
 					},
 					{
 						text: "Lập trình Java",
@@ -231,7 +237,7 @@ export default defineUserConfig({
 							{
 								text: "Lập trình Hướng đối tượng với Java",
 								link: "/java-oop/",
-								icon: "si-awslambda"
+								icon: "vi-file-type-haskell2"
 							},
 						]
 					},
@@ -240,16 +246,16 @@ export default defineUserConfig({
 						// link: "/docs/intro.md",
 						icon: "vi-file-type-js",
 						children: [
-							{
-								text: "JavaScript cơ bản",
-								link: "/docs/intro.md",
-								icon: "vi-file-type-js"
-							},
-							{
-								text: "JavaScript ES6",
-								link: "/docs/intro.md",
-								icon: "vi-file-type-light-jsmap"
-							},
+							// {
+							// 	text: "JavaScript cơ bản",
+							// 	link: "/docs/intro.md",
+							// 	icon: "vi-file-type-js"
+							// },
+							// {
+							// 	text: "JavaScript ES6",
+							// 	link: "/docs/intro.md",
+							// 	icon: "vi-file-type-light-jsmap"
+							// },
 						]
 					},
 				]
@@ -291,7 +297,7 @@ export default defineUserConfig({
 						children: [
 							{
 								text: "Restful API với NodeJS",
-								link: "/ebook/java/java-core/session1/",
+								link: "/nodejs/",
 								icon: "vi-file-type-node"
 							},
 							{
@@ -309,7 +315,7 @@ export default defineUserConfig({
 							{
 								text: "Lập trình Java Swing",
 								link: "/docs/intro.md",
-								icon: "bi-filetype-java"
+								icon: "vi-folder-type-cubit-opened"
 							},
 
 						]

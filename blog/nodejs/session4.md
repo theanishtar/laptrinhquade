@@ -1,4 +1,4 @@
----
+<!-- ---
 layout: Post
 title: Tạo tính năng CRUD bằng NodeJS
 subtitle: Lập trình NodeJS
@@ -13,15 +13,16 @@ tags:
 ---
 
 Khi đã đủ kiến thức cơ bản, hãy cùng mình xâu dựng một **_CRUD app_** với NodeJS thoy lào
-
+ -->
 
 <!-- more -->
 
 ---
-NodeJS được thịnh hành dạo gần đây và được rất nhiều lập trình viên ưa chuộng, với cú pháp ngắn gọn, đơn giản NodeJS ngày càng được cộng đồng phát triển và học tập một cách mạnh mẻ.
+<!-- NodeJS được thịnh hành dạo gần đây và được rất nhiều lập trình viên ưa chuộng, với cú pháp ngắn gọn, đơn giản NodeJS ngày càng được cộng đồng phát triển và học tập một cách mạnh mẻ.
 
-Khi học NodeJS bạn có thể phát triển các webapp phía BackEnd bằng NestJS (một framework của NodeJS)
+Khi học NodeJS bạn có thể phát triển các webapp phía BackEnd bằng NestJS (một framework của NodeJS) -->
 
+# Bài 4. CRUD dữ liệu bằng API
 
 ## Nội dung chính
 

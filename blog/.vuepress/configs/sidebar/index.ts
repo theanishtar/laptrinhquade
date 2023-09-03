@@ -24,7 +24,19 @@ export const en: SidebarConfig = {
 	"/java-oop/": [
 		"/java-oop/readme.md",
 		"/java-oop/session1.md",
+		"/java-oop/session2.md",
 	],
+
+
+	// Backend
+	"/nodejs/": [
+		"/nodejs/readme.md",
+		"/nodejs/session1.md",
+		"/nodejs/session2.md",
+		"/nodejs/session3.md",
+		"/nodejs/session4.md",
+		"/nodejs/session5.md",
+	]
 
 };
 

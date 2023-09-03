@@ -1,4 +1,4 @@
----
+<!-- ---
 layout: Post
 title: Xử lí các params trong đối tượng form bằng NodeJS
 subtitle: Lập trình NodeJS
@@ -12,15 +12,16 @@ tags:
   - NodeJS
 ---
 
-Request là đối tượng giao tiếp chính giữa clinet và server. Cùng mình nắm rõ về **_Request_** trong bài viết này nhá
+Request là đối tượng giao tiếp chính giữa clinet và server. Cùng mình nắm rõ về **_Request_** trong bài viết này nhá -->
 
+# Bài 3. Xử lí các params
 
 <!-- more -->
 
 ---
-NodeJS được thịnh hành dạo gần đây và được rất nhiều lập trình viên ưa chuộng, với cú pháp ngắn gọn, đơn giản NodeJS ngày càng được cộng đồng phát triển và học tập một cách mạnh mẻ.
+<!-- NodeJS được thịnh hành dạo gần đây và được rất nhiều lập trình viên ưa chuộng, với cú pháp ngắn gọn, đơn giản NodeJS ngày càng được cộng đồng phát triển và học tập một cách mạnh mẻ.
 
-Khi học NodeJS bạn có thể phát triển các webapp phía BackEnd bằng NestJS (một framework của NodeJS)
+Khi học NodeJS bạn có thể phát triển các webapp phía BackEnd bằng NestJS (một framework của NodeJS) -->
 
 
 ## Nội dung chính

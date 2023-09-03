@@ -31,7 +31,9 @@ import {
 	FcCommandLine,
 	PxMonitor,
 	ViFileTypeNode,
-	BiFiletypeJava
+	BiFiletypeJava,
+	ViFolderTypeCubitOpened,
+	ViFileTypeHaskell2
 } from "oh-vue-icons/icons";
 
 addIcons(
@@ -66,7 +68,9 @@ addIcons(
 	PxMonitor,
 	ViFileTypeNode,
 	ViFileTypeJar,
-	BiFiletypeJava
+	BiFiletypeJava,
+	ViFolderTypeCubitOpened,
+	ViFileTypeHaskell2
 );
 
 export default defineClientConfig({});

@@ -1,4 +1,4 @@
----
+<!-- ---
 layout: Post
 title: Tìm hiểu về Ejs - view engine template tiện lợi của NodeJS
 subtitle: Lập trình NodeJS
@@ -12,15 +12,17 @@ tags:
   - NodeJS
 ---
 
-EJS là template engine server của NodeJS. Một trang giao diện với EJS nhé
+EJS là template engine server của NodeJS. Một trang giao diện với EJS nhé -->
 
 
 <!-- more -->
 
----
-NodeJS được thịnh hành dạo gần đây và được rất nhiều lập trình viên ưa chuộng, với cú pháp ngắn gọn, đơn giản NodeJS ngày càng được cộng đồng phát triển và học tập một cách mạnh mẻ.
+# Bài 2. Tìm hiểu về Ejs
 
-Khi học NodeJS bạn có thể phát triển các webapp phía BackEnd bằng NestJS (một framework của NodeJS)
+---
+<!-- NodeJS được thịnh hành dạo gần đây và được rất nhiều lập trình viên ưa chuộng, với cú pháp ngắn gọn, đơn giản NodeJS ngày càng được cộng đồng phát triển và học tập một cách mạnh mẻ.
+
+Khi học NodeJS bạn có thể phát triển các webapp phía BackEnd bằng NestJS (một framework của NodeJS) -->
 
 
 ## Nội dung chính

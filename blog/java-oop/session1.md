@@ -15,7 +15,7 @@ tags:
 Hướng đối tượng là phương pháp lập trình phổ biến nhất hiện nay!!! Cùng mình tìm hiểu về OOP trog bài viết này nhé  -->
 <!-- more -->
 
-# Bài 1. Giới thiệu về lập trình hướng đối tượng trong Java
+# Bài 1. Lập trình hướng đối tượng
 ## 1. Khái niệm
 
 ==OOP== là viết tắt của **Object-Oriented Programing** (*Lập trình hướng đối tượng*), nó cấu trúc code phân chia theo **Classes** → **Objects** → **Attributes** → **Methods**
@@ -39,7 +39,7 @@ So với lập trình cấu trúc thì hướng đối tượng sẽ:
 
 ## 3. Lập trình hướng đối tượng
 
-![object-class-diagrame-1.png](https://github.com/dangtranhuu/images/blob/main/angurvad/java-oop/session1/picture1.png?raw=true)
+![object-class-diagrame-1.png](https://github.com/dangtranhuu/images/blob/main/angurvad/java-oop/session1/Picture4.png?raw=true)
 
 Nhìn ảnh trên có lẽ bạn đã hiểu khá tổng quát về hướng đối tượng rồi
 
