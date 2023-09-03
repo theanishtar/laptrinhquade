@@ -1,35 +1,24 @@
-# Hi! 🧐
+# Xin chào! 🧐
 
-[![blog](https://img.shields.io/badge/Blog-Renovamen-red?style=flat-square)](https://zxh.io) [![renovamen's blog](https://img.shields.io/badge/GitHub-blog.zxh.io-6A7EC2?style=flat-square)](https://github.com/Renovamen/blog.zxh.io) [![VuePress](https://img.shields.io/badge/VuePress-build-1aad19?style=flat-square)](https://github.com/vuejs/vuepress) [![vuepress-theme-gungnir](https://img.shields.io/badge/Gungnir-theme-26a2ff?style=flat-square)](https://github.com/Renovamen/vuepress-theme-gungnir) [![license](https://img.shields.io/badge/License-Apache--2.0-orange?style=flat-square)](LICENSE)
+Đây là dự án cá nhân được tạo ra với mục đích chia sẽ kiến thức cho cộng đồng.
 
+Được mình tạo ra vào năm 2 trong khoản thời gian học IT tại trường. Dự án vẫn sẽ tiếp tục được mình phát triển thêm trong suốt quá trình học tập và làm việc
 
-This is my blog, it is powered by [VuePress 2](https://v2.vuepress.vuejs.org/) and themed by [Gungnir](https://github.com/Renovamen/vuepress-theme-gungnir). 
+Các bạn có thể truy cập webite thông qua [laptrinhquade.web.app](https://laptrinhquade.web.app/) hoặc phát triển thêm nếu bạn muốn. 
 
-It used be be built with:
-
-- [Jekyll](https://jekyllrb.com/): [[code]](https://github.com/Renovamen/blog.zxh.io/tree/jekyll), [[theme]](https://github.com/Renovamen/jekyll-theme-gungnir)
-- [VuePress 1](https://v2.vuepress.vuejs.org): [[code]](https://github.com/Renovamen/blog.zxh.io/tree/vuepress-v1), [[theme]](https://github.com/Renovamen/vuepress-theme-gungnir/tree/v0)
-
-Any way, just have fun with this blog: [blog.zxh.io](https://blog.zxh.io)
-
-
-&nbsp;
-
-## Usage
-
-Clone the repo and install dependencies:
+Clone dự án và cài đặt các thư viện cần thiết:
 
 ```bash
 pnpm i
 ```
 
-Start developing the site:
+Chạy trong môi trường phát triển:
 
 ```bash
 pnpm dev
 ```
 
-Build for production with minification:
+Build dự án:
 
 ```bash
 pnpm build
@@ -38,6 +27,6 @@ pnpm build
 
 &nbsp;
 
-## License
+## Chứng nhận
 
 This blog is [Apache License 2.0](https://www.apache.org/licenses/LICENSE-2.0) licensed, see the [LICENSE](LICENSE) file for details.

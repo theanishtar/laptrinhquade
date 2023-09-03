@@ -3,7 +3,6 @@ import { defineUserConfig } from "vuepress";
 import { gungnirTheme } from "vuepress-theme-gungnir";
 import { sidebar } from "./configs";
 
-
 // import { giscusPlugin } from "vuepress-plugin-giscus";
 
 // Import the functions you need from the SDKs you need
@@ -14,23 +13,23 @@ import { initializeApp } from "firebase/app";
 // Your web app's Firebase configuration
 // For Firebase JS SDK v7.20.0 and later, measurementId is optional
 
-const firebaseConfig = {
-	apiKey: "AIzaSyAwT2Z-hMtohDflO0fliu-dxmjpuxjA5fU",
-	authDomain: "angurvad-5559e.firebaseapp.com",
-	projectId: "angurvad-5559e",
-	storageBucket: "angurvad-5559e.appspot.com",
-	messagingSenderId: "908813697862",
-	appId: "1:908813697862:web:c2d4e7769a6f514ae7db47",
-	measurementId: "G-5RDHC2ETQ0"
-};
+// const firebaseConfig = {
+// 	apiKey: "AIzaSyAwT2Z-hMtohDflO0fliu-dxmjpuxjA5fU",
+// 	authDomain: "angurvad-5559e.firebaseapp.com",
+// 	projectId: "angurvad-5559e",
+// 	storageBucket: "angurvad-5559e.appspot.com",
+// 	messagingSenderId: "908813697862",
+// 	appId: "1:908813697862:web:c2d4e7769a6f514ae7db47",
+// 	measurementId: "G-5RDHC2ETQ0"
+// };
 
 // Initialize Firebase
-const app = initializeApp(firebaseConfig);
+// const app = initializeApp(firebaseConfig);
 
 const isProd = process.env.NODE_ENV === "production";
 
 export default defineUserConfig({
-	title: "Angurvad",
+	title: "laptrinhquade",
 	description: "Một lập trình viên luôn cố gắng mỗi ngày",
 
 	head: [
@@ -70,10 +69,10 @@ export default defineUserConfig({
 	bundler: viteBundler(),
 
 	theme: gungnirTheme({
-		repo: "Theanishtar/angurvad",
+		repo: "Theanishtar/laptrinhquade",
 		docsDir: "blog",
 		docsBranch: "master",
-		navbarTitle: "Angurvad",
+		navbarTitle: "laptrinhquade",
 		hitokoto: "https://v1.hitokoto.cn?c=i", // enable hitokoto (一言) or not?
 		searchText: "Tìm kiếm",
 		// personal information
@@ -169,21 +168,8 @@ export default defineUserConfig({
 			git: isProd,
 			katex: true,
 			giscus: {
-				// repo: "dangth12/blog-giscus-comments",
-				// repoId: "R_kgDOJpeyjQ",
-				// category: "Announcements",
-				// categoryId: "DIC_kwDOJpeyjc4CW2KP",
-				// mapping: "pathname",  // optional, string, default="title"
-				lang: "vi",  // optional, string, default="auto" (follow the site's language, fall to "en" if your site's language is not supported by Giscus)
-				// lazyLoad: true,  // optional, boolean, default=false (if true, loading of Giscus will be deferred until the user scrolls near the comments container)
-				// crossorigin: "anonymous",  // optional, string, default="anonymous"
+				lang: "vi",
 				darkTheme: "https://blog.zxh.io/styles/giscus-dark.css",
-
-				// repo: "This-is-an-Apple/gitalk-comments",
-				// repoId: "MDEwOlJlcG9zaXRvcnkyMTA1MjQyMTQ=",
-				// category: "Announcements",
-				// categoryId: "DIC_kwDODIxYNs4CAO1u",
-
 				repo: "dangth12/blog-giscus-comments",
 				repoId: "R_kgDOJpeyjQ",
 				category: "Announcements",
@@ -215,19 +201,136 @@ export default defineUserConfig({
 			{
 				text: "Bài viết",
 				link: "/tags/",
-				icon: "fa-tag"
+				icon: "gi-evil-book"
 			},
 			{
 				text: "Công nghệ",
 				link: "/tech/",
-				icon: "fa-satellite-dish"
+				icon: "gi-pc"
 			},
 
+			{
+				text: "Nền tảng",
+				icon: "ri-code-s-slash-line",
+				children: [
+					{
+						text: "Lập trình C/C++",
+						link: "/docs/intro.md",
+						icon: "vi-file-type-cpp",
+						children: []
+					},
+					{
+						text: "Lập trình Java",
+						icon: "fa-java",
+						children: [
+							{
+								text: "Lập trình Java Core",
+								link: "/ebook/java/java-core/session1/",
+								icon: "fa-java"
+							},
+							{
+								text: "Lập trình Hướng đối tượng với Java",
+								link: "/docs/intro.md",
+								icon: "si-awslambda"
+							},
+						]
+					},
+					{
+						text: "Lập trình JavaScript",
+						// link: "/docs/intro.md",
+						icon: "vi-file-type-js",
+						children: [
+							{
+								text: "JavaScript cơ bản",
+								link: "/docs/intro.md",
+								icon: "vi-file-type-js"
+							},
+							{
+								text: "JavaScript ES6",
+								link: "/docs/intro.md",
+								icon: "vi-file-type-light-jsmap"
+							},
+						]
+					},
+				]
+			},
 			// {
-			// 	text: "Portfolio",
-			// 	link: "https://portfolio.zxh.io/",
-			// 	icon: "oi-rocket"
-			// }
+			// 	text: "Java",
+			// 	icon: "fa-java",
+			// 	children: [
+			// 		{
+			// 			text: "Java Servlet/Jsp",
+			// 			link: "/docs/intro.md",
+			// 			icon: "vi-file-type-jsp"
+			// 		},
+			// 		{
+			// 			text: "Spring MVC",
+			// 			link: "/docs/intro.md",
+			// 			icon: "co-spring"
+			// 		},
+			// 		{
+			// 			text: "SpringBoot",
+			// 			link: "/docs/intro.md",
+			// 			icon: "co-spring"
+			// 		},
+			// 	]
+			// },
+			{
+				text: "Nâng cao",
+				icon: "si-codersrank",
+				children: [
+					{
+						text: "Lập trình C/C++",
+						link: "/docs/intro.md",
+						icon: "vi-file-type-cpp",
+						children: []
+					},
+					{
+						text: "Lập trình Java",
+						icon: "la-java",
+						children: [
+							{
+								text: "Lập trình Java Core",
+								link: "/ebook/java/java-core/session1/",
+								icon: "la-java"
+							},
+							{
+								text: "Lập trình Hướng đối tượng với Java",
+								link: "/docs/intro.md",
+								icon: "si-awslambda"
+							},
+						]
+					},
+					{
+						text: "Lập trình JavaScript",
+						// link: "/docs/intro.md",
+						icon: "vi-file-type-js",
+						children: [
+							{
+								text: "JavaScript cơ bản",
+								link: "/docs/intro.md",
+								icon: "vi-file-type-js"
+							},
+							{
+								text: "JavaScript ES6",
+								link: "/docs/intro.md",
+								icon: "vi-file-type-light-jsmap"
+							},
+						]
+					},
+				]
+			},
+			{
+				text: "Công cụ",
+				icon: "la-tools-solid",
+				children: [
+					{
+						text: "Quản lí mã nguồn với Git và GitHub",
+						link: "/docs/intro.md",
+						icon: "vi-file-type-git"
+					},
+				]
+			}
 		],
 
 		footer: `
