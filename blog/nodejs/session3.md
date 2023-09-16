@@ -14,7 +14,7 @@ tags:
 
 Request là đối tượng giao tiếp chính giữa clinet và server. Cùng mình nắm rõ về **_Request_** trong bài viết này nhá -->
 
-# Bài 3. Xử lí các params
+# Bài 3. Làm việc với MySql
 
 <!-- more -->
 

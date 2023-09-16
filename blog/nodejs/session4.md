@@ -22,7 +22,7 @@ Khi đã đủ kiến thức cơ bản, hãy cùng mình xâu dựng một **_CR
 
 Khi học NodeJS bạn có thể phát triển các webapp phía BackEnd bằng NestJS (một framework của NodeJS) -->
 
-# Bài 4. CRUD dữ liệu bằng API
+# Bài 4. Lập trình MVC
 
 ## Nội dung chính
 
