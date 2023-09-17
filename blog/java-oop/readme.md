@@ -4,4 +4,4 @@ Chào mừng bạn đến với cuốn eBook "Hướng Dẫn Lập Trình Hướ
 # Tác giả
 | Tác giả | Nội dung     | Số bài giảng | Công cụ cần có | Hình ảnh |
 |--------|-------------|---------|-----------|----------|
-|[Trần Hữu Đang]()| Lập trình Hướng đối tượng với Java| Chưa có | [NetBeans IDE](https://netbeans.apache.org/) | <img src="https://logos-download.com/wp-content/uploads/2020/07/NetBeans_Logo.png" title="" alt="Professor Male.png" width="35"> |
+|[Trần Hữu Đang]()| Lập trình Hướng đối tượng với Java| Chưa có | [NetBeans IDE](https://netbeans.apache.org/) | <img src="https://github.com/dangtranhuu/images/blob/main/ide/NetBeans_Logo.png?raw=true" title="" alt="Professor Male.png" width="35"> |

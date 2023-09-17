@@ -19,7 +19,7 @@ Khi đã đủ kiến thức cơ bản, hãy cùng mình xâu dựng một **_CR
 <!-- NodeJS được thịnh hành dạo gần đây và được rất nhiều lập trình viên ưa chuộng, với cú pháp ngắn gọn, đơn giản NodeJS ngày càng được cộng đồng phát triển và học tập một cách mạnh mẻ.
 
 Khi học NodeJS bạn có thể phát triển các webapp phía BackEnd bằng NestJS (một framework của NodeJS) -->
-<h1 id="bai-4-crud-du-lieu-bang-api" tabindex="-1"><a class="header-anchor" href="#bai-4-crud-du-lieu-bang-api" aria-hidden="true">#</a> Bài 4. CRUD dữ liệu bằng API</h1>
+<h1 id="bai-4-lap-trinh-mvc" tabindex="-1"><a class="header-anchor" href="#bai-4-lap-trinh-mvc" aria-hidden="true">#</a> Bài 4. Lập trình MVC</h1>
 <h2 id="noi-dung-chinh" tabindex="-1"><a class="header-anchor" href="#noi-dung-chinh" aria-hidden="true">#</a> Nội dung chính</h2>
 <pre><code>Chưa cập nhật
 </code></pre>

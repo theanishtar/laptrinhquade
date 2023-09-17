@@ -18,7 +18,7 @@ Công cuộc cuối cùng để tới với một Lập trình viên BackEnd Nod
 <!-- more -->
 <hr>
 <!-- Với Restful, bạn sẽ tạo nên khả năng truy cập tài nguyên cho client thông qua các URI. Dữ liệu trả về sẽ trong dạng json, xml, html nhưng chủ yếu là json. Restful sử dụng HTTP như cỗ xe chuyên chở dữ liệu giữa server và client qua các method GET, HEAD, POST, PUT, PATCH, DELETE… -->
-<h1 id="bai-5-restful-api" tabindex="-1"><a class="header-anchor" href="#bai-5-restful-api" aria-hidden="true">#</a> Bài 5. Restful API</h1>
+<h1 id="bai-5-gioi-thieu-restful-api" tabindex="-1"><a class="header-anchor" href="#bai-5-gioi-thieu-restful-api" aria-hidden="true">#</a> Bài 5. Giới thiệu Restful API</h1>
 <h2 id="cac-quy-đinh-http-method-trong-restful" tabindex="-1"><a class="header-anchor" href="#cac-quy-đinh-http-method-trong-restful" aria-hidden="true">#</a> Các quy định http method trong restful</h2>
 <table>
 <thead>

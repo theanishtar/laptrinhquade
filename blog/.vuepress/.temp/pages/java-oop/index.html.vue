@@ -17,7 +17,7 @@
 <td>Lập trình Hướng đối tượng với Java</td>
 <td>Chưa có</td>
 <td><a href="https://netbeans.apache.org/" target="_blank" rel="noopener noreferrer">NetBeans IDE</a></td>
-<td><img src="https://logos-download.com/wp-content/uploads/2020/07/NetBeans_Logo.png" title="" alt="Professor Male.png" width="35"></td>
+<td><img src="https://github.com/dangtranhuu/images/blob/main/ide/NetBeans_Logo.png?raw=true" title="" alt="Professor Male.png" width="35"></td>
 </tr>
 </tbody>
 </table>

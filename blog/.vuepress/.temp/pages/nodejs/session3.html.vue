@@ -13,7 +13,7 @@ tags:
 ---
 
 Request là đối tượng giao tiếp chính giữa clinet và server. Cùng mình nắm rõ về **_Request_** trong bài viết này nhá -->
-<h1 id="bai-3-xu-li-cac-params" tabindex="-1"><a class="header-anchor" href="#bai-3-xu-li-cac-params" aria-hidden="true">#</a> Bài 3. Xử lí các params</h1>
+<h1 id="bai-3-lam-viec-voi-mysql" tabindex="-1"><a class="header-anchor" href="#bai-3-lam-viec-voi-mysql" aria-hidden="true">#</a> Bài 3. Làm việc với MySql</h1>
 <!-- more -->
 <hr>
 <!-- NodeJS được thịnh hành dạo gần đây và được rất nhiều lập trình viên ưa chuộng, với cú pháp ngắn gọn, đơn giản NodeJS ngày càng được cộng đồng phát triển và học tập một cách mạnh mẻ.

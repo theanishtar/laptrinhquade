@@ -36,6 +36,23 @@ export const en: SidebarConfig = {
 		"/nodejs/session3.md",
 		"/nodejs/session4.md",
 		"/nodejs/session5.md",
+		"/nodejs/session6.md",
+		"/nodejs/session7.md",
+		"/nodejs/session8.md",
+	],
+
+	// Tools
+	// Backend
+	"/github/": [
+		"/github/readme.md",
+		"/github/session1.md",
+		"/github/session2.md",
+		"/github/session3.md",
+		"/github/session4.md",
+		"/github/session5.md",
+		"/github/session6.md",
+		"/github/session7.md",
+		"/github/session8.md",
 	]
 
 };
