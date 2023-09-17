@@ -52,7 +52,7 @@ export default defineUserConfig({
 			}
 		],
 		["meta", { name: "application-name", content: "TheanIshtar" }],
-		["meta", { property: "og:image", content: "https://github.com/dangtranhuu/images/blob/main/angurvad/main.png?raw=true" }],
+		// ["meta", { property: "og:image", content: "https://github.com/dangtranhuu/images/blob/main/angurvad/main.png?raw=true" }],
 		["meta", { name: "apple-mobile-web-app-title", content: "Thean" }],
 		[
 			"meta",
@@ -328,7 +328,7 @@ export default defineUserConfig({
 				children: [
 					{
 						text: "Quản lí mã nguồn với Git và GitHub",
-						link: "/docs/intro.md",
+						link: "/github/",
 						icon: "vi-file-type-git"
 					},
 				]

@@ -200,7 +200,6 @@ public class Project_demo {
 
 ## 9. Compile file **.class**
 
-Trong bài [Bài 1. Giới thiệu](https://github.com/Zenfection/Java/blob/master/Java%20Basic/1.GioiThieu.md), mình đã giới thiệu về sơ đồ sau : 
 
 ![30-16-03-57-04-19-39-12-Ảnh chụp Màn hình 2020-08-04 lúc 19.39.02.png](https://raw.githubusercontent.com/Zenfection/Image/master/2021/01/30-17-05-05-30-16-03-57-04-19-39-12-A%CC%89nh%20chu%CC%A3p%20Ma%CC%80n%20hi%CC%80nh%202020-08-04%20lu%CC%81c%2019.39.02.png)
 
@@ -213,7 +212,7 @@ Cho file **Demo.java** như sau :
 ```java
 public class Demo {
     public static void main(String[] args) {
-        System.out.println("Kiệt đẹp trai");
+        System.out.println("Đang đẹp trai");
     }
 }
 ```

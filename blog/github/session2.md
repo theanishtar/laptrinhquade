@@ -1,29 +1,6 @@
-<!-- ---
-layout: Post
-title: Tìm hiểu về NodeJS và xử lý request đơn giản
-subtitle: Lập trình NodeJS
-author: Theanishtar
-date: 2023-05-31
-useHeaderImage: true
-headerImage: /img/in-post/2020-08-22/header.jpg
-headerMask: rgba(33, 77, 92, 0.599)
-permalinkPattern: /ebook/nodejs/:slug/
-tags:
-  - NodeJS
----
 
-NodeJS là một thư viện (đôi khi còn được xem như một framework) của ngôn ngữ lập trình JavaScript. Cùng mình xây dựng server đơn giản với NodeJS nha -->
-
-
-<!-- more -->
 
 # Bài 2. Đẩy code lên GitHub
-
----
-<!-- NodeJS được thịnh hành dạo gần đây và được rất nhiều lập trình viên ưa chuộng, với cú pháp ngắn gọn, đơn giản NodeJS ngày càng được cộng đồng phát triển và học tập một cách mạnh mẻ.
-
-Khi học NodeJS bạn có thể phát triển các webapp phía BackEnd bằng NestJS (một framework của NodeJS) -->
-
 
 ## Tạo Repository tại GitHub.com
 
@@ -33,7 +10,7 @@ Repository là một kho lưu trữ của GitHub, bạn có thể xem Repository
 
 **Bước 1: Tạo Repo mới [tại đây](https://github.com/new)**
 
-![Tạo repo GitHub](https://github.com/dangtranhuu/images/blob/main/angurvad/nodejs/session2/image.png?raw=true)
+![Tạo repo GitHub](https://github.com/dangtranhuu/images/blob/main/angurvad/github/session2/taorepo.png?raw=true)
 
 :::info
 Repository name: là tên kho lưu trữ của bạn
@@ -51,9 +28,9 @@ Khi tạo xong repo giao diện sẽ thay đổi thành thế này:
 
 Bạn hãy coppy đường link sau:
 
-![Tạo repo GitHub](https://github.com/dangtranhuu/images/blob/main/angurvad/nodejs/session2/image.png?raw=true)
+![Tạo repo GitHub](https://github.com/dangtranhuu/images/blob/main/angurvad/github/session2/clonerepo.png?raw=true)
 
-Vào [Git Bash]() và gõ lệnh sau:
+Vào [Git Bash](/github/session1.html#đang-nhap-vao-git) và gõ lệnh sau:
 
 ```bash
 $ git clone //dán đường dẫn vừa coppy vào đây
@@ -63,16 +40,16 @@ $ git clone //dán đường dẫn vừa coppy vào đây
 
 Bạn sẽ thấy một thư mục trống như này:
 
-![Tạo repo GitHub](https://github.com/dangtranhuu/images/blob/main/angurvad/nodejs/session2/image.png?raw=true)
+![Tạo repo GitHub](https://github.com/dangtranhuu/images/blob/main/angurvad/github/session2/pastecode.png?raw=true)
 
 Sau đó cứ tiến hành paste hết những đoạn code bạn muốn đẩy lên Git vào thư mục trống này
 
-![Tạo repo GitHub](https://github.com/dangtranhuu/images/blob/main/angurvad/nodejs/session2/image.png?raw=true)
+![Tạo repo GitHub](https://github.com/dangtranhuu/images/blob/main/angurvad/github/session2/pastedone.png?raw=true)
 
 
 **Bước 4: Đẩy code lên GitHub**
 
-Tại thư mục, click chuột phải để mở [Git Bash]()
+Tại thư mục, click chuột phải để mở [Git Bash](/github/session1.html#đang-nhap-vao-git)
 
 Gõ lần lượt các lệnh sau
 
@@ -88,3 +65,5 @@ $ git push
 - Nếu chưa thấy thì thực hiện lại các bước. Nếu vẫn không được thì để lại comment phía dưới nhé!
 
 
+
+<iframe width="100%" height="450" src="https://www.youtube.com/embed/RV_jojt_2bo?si=KhYiTBJdNeHYFfMa" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>

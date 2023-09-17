@@ -127,6 +127,107 @@ export const searchIndex = [
     "extraFields": []
   },
   {
+    "title": "Lời nói đầu",
+    "headers": [],
+    "path": "/github/",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "Bài 1. Setup môi trường",
+    "headers": [
+      {
+        "level": 2,
+        "title": "Git là gì?",
+        "slug": "git-la-gi",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "GitHub là gì?",
+        "slug": "github-la-gi",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "Cài đặt Git và Tạo tài khoản GitHub",
+        "slug": "cai-đat-git-va-tao-tai-khoan-github",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "Tạo tài khoản GitHub",
+        "slug": "tao-tai-khoan-github",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "Đăng nhập vào Git",
+        "slug": "đang-nhap-vao-git",
+        "children": []
+      }
+    ],
+    "path": "/github/session1.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "Bài 2. Đẩy code lên GitHub",
+    "headers": [
+      {
+        "level": 2,
+        "title": "Tạo Repository tại GitHub.com",
+        "slug": "tao-repository-tai-github-com",
+        "children": []
+      }
+    ],
+    "path": "/github/session2.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "Bài 3",
+    "headers": [],
+    "path": "/github/session3.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "Bài 4",
+    "headers": [],
+    "path": "/github/session4.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "Bài 5",
+    "headers": [],
+    "path": "/github/session5.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "Bài 6",
+    "headers": [],
+    "path": "/github/session6.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "Bài 7",
+    "headers": [],
+    "path": "/github/session7.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "Bài 8",
+    "headers": [],
+    "path": "/github/session8.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
     "title": "Giới thiệu về cấu trúc dữ liệu và giải thuật",
     "subtitle": "Cấu trúc dữ liệu và giải thuật",
     "headers": [
@@ -284,6 +385,377 @@ export const searchIndex = [
     "pathLocale": "/",
     "extraFields": [],
     "layout": "Post"
+  },
+  {
+    "title": "Lời nói đầu",
+    "headers": [],
+    "path": "/nodejs/",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "Bài 1. Tìm hiểu về NodeJS",
+    "headers": [
+      {
+        "level": 2,
+        "title": "NodeJS là gì",
+        "slug": "nodejs-la-gi",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "Mô hình hoạt động của NodeJS",
+        "slug": "mo-hinh-hoat-đong-cua-nodejs",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "Download và cài đặt NodeJS",
+        "slug": "download-va-cai-đat-nodejs",
+        "children": [
+          {
+            "level": 3,
+            "title": "1. Download NodeJS",
+            "slug": "_1-download-nodejs",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "2. Cài đặt NodeJS",
+            "slug": "_2-cai-đat-nodejs",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "3. Kiểm tra và cấu hình",
+            "slug": "_3-kiem-tra-va-cau-hinh",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "4. Test họat động của NodeJS",
+            "slug": "_4-test-hoat-đong-cua-nodejs",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "Module trong NodeJS",
+        "slug": "module-trong-nodejs",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "Tạo project",
+        "slug": "tao-project",
+        "children": [
+          {
+            "level": 4,
+            "title": "Cài đặt express",
+            "slug": "cai-đat-express",
+            "children": []
+          },
+          {
+            "level": 4,
+            "title": "Tạo file server.js sử dụng module express",
+            "slug": "tao-file-server-js-su-dung-module-express",
+            "children": []
+          },
+          {
+            "level": 4,
+            "title": "Chạy server.js",
+            "slug": "chay-server-js",
+            "children": []
+          }
+        ]
+      }
+    ],
+    "path": "/nodejs/session1.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "Bài 2. Tìm hiểu về Ejs",
+    "headers": [
+      {
+        "level": 2,
+        "title": "Cài đặt EJS",
+        "slug": "cai-đat-ejs",
+        "children": [
+          {
+            "level": 3,
+            "title": "Sử dụng lệnh if",
+            "slug": "su-dung-lenh-if",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "Vòng lặp for trong ejs view",
+            "slug": "vong-lap-for-trong-ejs-view",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "Sử dụng CSS trong view ejs",
+            "slug": "su-dung-css-trong-view-ejs",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "Nhận tham số dạng từ url",
+        "slug": "nhan-tham-so-dang-tu-url",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "Sử dụng form",
+        "slug": "su-dung-form",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "Upload hình trong form",
+        "slug": "upload-hinh-trong-form",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "Xoá ảnh",
+        "slug": "xoa-anh",
+        "children": []
+      }
+    ],
+    "path": "/nodejs/session2.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "Bài 3. Làm việc với MySql",
+    "headers": [
+      {
+        "level": 2,
+        "title": "Nội dung chính",
+        "slug": "noi-dung-chinh",
+        "children": []
+      }
+    ],
+    "path": "/nodejs/session3.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "Bài 4. Lập trình MVC",
+    "headers": [
+      {
+        "level": 2,
+        "title": "Nội dung chính",
+        "slug": "noi-dung-chinh",
+        "children": []
+      }
+    ],
+    "path": "/nodejs/session4.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "Bài 5. Giới thiệu Restful API",
+    "headers": [
+      {
+        "level": 2,
+        "title": "Các quy định http method trong restful",
+        "slug": "cac-quy-đinh-http-method-trong-restful",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "Khi request đến một tài nguyên, các status code sẽ trả về client :",
+        "slug": "khi-request-đen-mot-tai-nguyen-cac-status-code-se-tra-ve-client",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "Thực hiện restful api trong nodejs",
+        "slug": "thuc-hien-restful-api-trong-nodejs",
+        "children": [
+          {
+            "level": 3,
+            "title": "Chuẩn bị database",
+            "slug": "chuan-bi-database",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "Cài module express và express-generator",
+            "slug": "cai-module-express-va-express-generator",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "Tạo project để thực tập",
+            "slug": "tao-project-đe-thuc-tap",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "Tạo model kết nối db",
+            "slug": "tao-model-ket-noi-db",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "Tạo route",
+            "slug": "tao-route",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "Thực hiện chức năng danh sách record",
+            "slug": "thuc-hien-chuc-nang-danh-sach-record",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "Thực hiện lấy chi tiết record",
+            "slug": "thuc-hien-lay-chi-tiet-record",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "Thực hiện chức năng thêm record",
+            "slug": "thuc-hien-chuc-nang-them-record",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "Thực hiện chức năng cập nhật record",
+            "slug": "thuc-hien-chuc-nang-cap-nhat-record",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "Thực hiện chức năng xóa record",
+            "slug": "thuc-hien-chuc-nang-xoa-record",
+            "children": []
+          }
+        ]
+      }
+    ],
+    "path": "/nodejs/session5.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "Bài 6. Xây dựng Restful API",
+    "headers": [
+      {
+        "level": 2,
+        "title": "Chuẩn bị để sử dụng restful api",
+        "slug": "chuan-bi-đe-su-dung-restful-api",
+        "children": [
+          {
+            "level": 3,
+            "title": "1. Tạo database và table",
+            "slug": "_1-tao-database-va-table",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "2. Cài module express và express-generator",
+            "slug": "_2-cai-module-express-va-express-generator",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "3. Tạo project để thực tập",
+            "slug": "_3-tao-project-đe-thuc-tap",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "4. Tạo model kết nối db",
+            "slug": "_4-tao-model-ket-noi-db",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "5. Tạo controller",
+            "slug": "_5-tao-controller",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "Dùng hàm fetch() để gọi API",
+        "slug": "dung-ham-fetch-đe-goi-api",
+        "children": [
+          {
+            "level": 3,
+            "title": "Tạo request với method get",
+            "slug": "tao-request-voi-method-get",
+            "children": [
+              {
+                "level": 4,
+                "title": "Ví dụ 1: Gọi hàm API",
+                "slug": "vi-du-1-goi-ham-api",
+                "children": []
+              }
+            ]
+          },
+          {
+            "level": 3,
+            "title": "Đọc dữ liệu từ 1 object json",
+            "slug": "đoc-du-lieu-tu-1-object-json",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "Gọi API với method POST",
+            "slug": "goi-api-voi-method-post",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "Sử dụng thư viện Axios",
+        "slug": "su-dung-thu-vien-axios",
+        "children": [
+          {
+            "level": 3,
+            "title": "Cài đặt axios",
+            "slug": "cai-đat-axios",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "Ví dụ sử dụng axios",
+        "slug": "vi-du-su-dung-axios",
+        "children": []
+      }
+    ],
+    "path": "/nodejs/session6.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "Bài 7. Xác thực và xác nhận người dùng",
+    "headers": [],
+    "path": "/nodejs/session7.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "Bài 8. Làm việc với MongoDB",
+    "headers": [],
+    "path": "/nodejs/session8.html",
+    "pathLocale": "/",
+    "extraFields": []
   },
   {
     "title": "Lời nói đầu",
@@ -1184,385 +1656,6 @@ export const searchIndex = [
     "extraFields": []
   },
   {
-    "title": "Lời nói đầu",
-    "headers": [],
-    "path": "/nodejs/",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "Bài 1. Tìm hiểu về NodeJS",
-    "headers": [
-      {
-        "level": 2,
-        "title": "NodeJS là gì",
-        "slug": "nodejs-la-gi",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "Mô hình hoạt động của NodeJS",
-        "slug": "mo-hinh-hoat-đong-cua-nodejs",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "Download và cài đặt NodeJS",
-        "slug": "download-va-cai-đat-nodejs",
-        "children": [
-          {
-            "level": 3,
-            "title": "1. Download NodeJS",
-            "slug": "_1-download-nodejs",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "2. Cài đặt NodeJS",
-            "slug": "_2-cai-đat-nodejs",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "3. Kiểm tra và cấu hình",
-            "slug": "_3-kiem-tra-va-cau-hinh",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "4. Test họat động của NodeJS",
-            "slug": "_4-test-hoat-đong-cua-nodejs",
-            "children": []
-          }
-        ]
-      },
-      {
-        "level": 2,
-        "title": "Module trong NodeJS",
-        "slug": "module-trong-nodejs",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "Tạo project",
-        "slug": "tao-project",
-        "children": [
-          {
-            "level": 4,
-            "title": "Cài đặt express",
-            "slug": "cai-đat-express",
-            "children": []
-          },
-          {
-            "level": 4,
-            "title": "Tạo file server.js sử dụng module express",
-            "slug": "tao-file-server-js-su-dung-module-express",
-            "children": []
-          },
-          {
-            "level": 4,
-            "title": "Chạy server.js",
-            "slug": "chay-server-js",
-            "children": []
-          }
-        ]
-      }
-    ],
-    "path": "/nodejs/session1.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "Bài 2. Tìm hiểu về Ejs",
-    "headers": [
-      {
-        "level": 2,
-        "title": "Cài đặt EJS",
-        "slug": "cai-đat-ejs",
-        "children": [
-          {
-            "level": 3,
-            "title": "Sử dụng lệnh if",
-            "slug": "su-dung-lenh-if",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "Vòng lặp for trong ejs view",
-            "slug": "vong-lap-for-trong-ejs-view",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "Sử dụng CSS trong view ejs",
-            "slug": "su-dung-css-trong-view-ejs",
-            "children": []
-          }
-        ]
-      },
-      {
-        "level": 2,
-        "title": "Nhận tham số dạng từ url",
-        "slug": "nhan-tham-so-dang-tu-url",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "Sử dụng form",
-        "slug": "su-dung-form",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "Upload hình trong form",
-        "slug": "upload-hinh-trong-form",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "Xoá ảnh",
-        "slug": "xoa-anh",
-        "children": []
-      }
-    ],
-    "path": "/nodejs/session2.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "Bài 3. Làm việc với MySql",
-    "headers": [
-      {
-        "level": 2,
-        "title": "Nội dung chính",
-        "slug": "noi-dung-chinh",
-        "children": []
-      }
-    ],
-    "path": "/nodejs/session3.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "Bài 4. Lập trình MVC",
-    "headers": [
-      {
-        "level": 2,
-        "title": "Nội dung chính",
-        "slug": "noi-dung-chinh",
-        "children": []
-      }
-    ],
-    "path": "/nodejs/session4.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "Bài 5. Giới thiệu Restful API",
-    "headers": [
-      {
-        "level": 2,
-        "title": "Các quy định http method trong restful",
-        "slug": "cac-quy-đinh-http-method-trong-restful",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "Khi request đến một tài nguyên, các status code sẽ trả về client :",
-        "slug": "khi-request-đen-mot-tai-nguyen-cac-status-code-se-tra-ve-client",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "Thực hiện restful api trong nodejs",
-        "slug": "thuc-hien-restful-api-trong-nodejs",
-        "children": [
-          {
-            "level": 3,
-            "title": "Chuẩn bị database",
-            "slug": "chuan-bi-database",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "Cài module express và express-generator",
-            "slug": "cai-module-express-va-express-generator",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "Tạo project để thực tập",
-            "slug": "tao-project-đe-thuc-tap",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "Tạo model kết nối db",
-            "slug": "tao-model-ket-noi-db",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "Tạo route",
-            "slug": "tao-route",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "Thực hiện chức năng danh sách record",
-            "slug": "thuc-hien-chuc-nang-danh-sach-record",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "Thực hiện lấy chi tiết record",
-            "slug": "thuc-hien-lay-chi-tiet-record",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "Thực hiện chức năng thêm record",
-            "slug": "thuc-hien-chuc-nang-them-record",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "Thực hiện chức năng cập nhật record",
-            "slug": "thuc-hien-chuc-nang-cap-nhat-record",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "Thực hiện chức năng xóa record",
-            "slug": "thuc-hien-chuc-nang-xoa-record",
-            "children": []
-          }
-        ]
-      }
-    ],
-    "path": "/nodejs/session5.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "Bài 6. Xây dựng Restful API",
-    "headers": [
-      {
-        "level": 2,
-        "title": "Chuẩn bị để sử dụng restful api",
-        "slug": "chuan-bi-đe-su-dung-restful-api",
-        "children": [
-          {
-            "level": 3,
-            "title": "1. Tạo database và table",
-            "slug": "_1-tao-database-va-table",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "2. Cài module express và express-generator",
-            "slug": "_2-cai-module-express-va-express-generator",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "3. Tạo project để thực tập",
-            "slug": "_3-tao-project-đe-thuc-tap",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "4. Tạo model kết nối db",
-            "slug": "_4-tao-model-ket-noi-db",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "5. Tạo controller",
-            "slug": "_5-tao-controller",
-            "children": []
-          }
-        ]
-      },
-      {
-        "level": 2,
-        "title": "Dùng hàm fetch() để gọi API",
-        "slug": "dung-ham-fetch-đe-goi-api",
-        "children": [
-          {
-            "level": 3,
-            "title": "Tạo request với method get",
-            "slug": "tao-request-voi-method-get",
-            "children": [
-              {
-                "level": 4,
-                "title": "Ví dụ 1: Gọi hàm API",
-                "slug": "vi-du-1-goi-ham-api",
-                "children": []
-              }
-            ]
-          },
-          {
-            "level": 3,
-            "title": "Đọc dữ liệu từ 1 object json",
-            "slug": "đoc-du-lieu-tu-1-object-json",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "Gọi API với method POST",
-            "slug": "goi-api-voi-method-post",
-            "children": []
-          }
-        ]
-      },
-      {
-        "level": 2,
-        "title": "Sử dụng thư viện Axios",
-        "slug": "su-dung-thu-vien-axios",
-        "children": [
-          {
-            "level": 3,
-            "title": "Cài đặt axios",
-            "slug": "cai-đat-axios",
-            "children": []
-          }
-        ]
-      },
-      {
-        "level": 2,
-        "title": "Ví dụ sử dụng axios",
-        "slug": "vi-du-su-dung-axios",
-        "children": []
-      }
-    ],
-    "path": "/nodejs/session6.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "Bài 7. Xác thực và xác nhận người dùng",
-    "headers": [],
-    "path": "/nodejs/session7.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "Bài 8. Làm việc với MongoDB",
-    "headers": [],
-    "path": "/nodejs/session8.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "Links",
-    "headers": [],
-    "path": "/tech/",
-    "pathLocale": "/",
-    "extraFields": [],
-    "layout": "Links"
-  },
-  {
     "title": "Tìm hiểu về mình",
     "subtitle": "Mình là ai?",
     "headers": [
@@ -1649,6 +1742,14 @@ export const searchIndex = [
     "pathLocale": "/",
     "extraFields": [],
     "layout": "Post"
+  },
+  {
+    "title": "Links",
+    "headers": [],
+    "path": "/tech/",
+    "pathLocale": "/",
+    "extraFields": [],
+    "layout": "Links"
   },
   {
     "title": "Tìm hiểu về Session, Cookie trong Xác thực người dùng",

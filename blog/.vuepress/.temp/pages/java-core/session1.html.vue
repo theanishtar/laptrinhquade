@@ -157,7 +157,6 @@ Này là <span class="token keyword">in</span> không xuống dòngKết quả
 <span class="token punctuation">}</span>
 </code></pre></div><hr>
 <h2 id="_9-compile-file-class" tabindex="-1"><a class="header-anchor" href="#_9-compile-file-class" aria-hidden="true">#</a> 9. Compile file <strong>.class</strong></h2>
-<p>Trong bài <a href="https://github.com/Zenfection/Java/blob/master/Java%20Basic/1.GioiThieu.md" target="_blank" rel="noopener noreferrer">Bài 1. Giới thiệu</a>, mình đã giới thiệu về sơ đồ sau :</p>
 <p><img src="https://raw.githubusercontent.com/Zenfection/Image/master/2021/01/30-17-05-05-30-16-03-57-04-19-39-12-Ảnh chụp Màn hình 2020-08-04 lúc 19.39.02.png" alt="30-16-03-57-04-19-39-12-Ảnh chụp Màn hình 2020-08-04 lúc 19.39.02.png"></p>
 <blockquote>
 <p>🤔 Như bạn thấy thì <strong>Java Code</strong> ==&gt; <strong>Mã trung gian</strong> ==&gt; <strong>Native code</strong> (<em>tức là nhị phân</em>).</p>
@@ -166,7 +165,7 @@ Này là <span class="token keyword">in</span> không xuống dòngKết quả
 <p>Cho file <strong>Demo.java</strong> như sau :</p>
 <div class="language-java ext-java"><pre v-pre class="language-java"><code><span class="token keyword">public</span> <span class="token keyword">class</span> <span class="token class-name">Demo</span> <span class="token punctuation">{</span>
     <span class="token keyword">public</span> <span class="token keyword">static</span> <span class="token keyword">void</span> <span class="token function">main</span><span class="token punctuation">(</span><span class="token class-name">String</span><span class="token punctuation">[</span><span class="token punctuation">]</span> args<span class="token punctuation">)</span> <span class="token punctuation">{</span>
-        <span class="token class-name">System</span><span class="token punctuation">.</span>out<span class="token punctuation">.</span><span class="token function">println</span><span class="token punctuation">(</span><span class="token string">"Kiệt đẹp trai"</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+        <span class="token class-name">System</span><span class="token punctuation">.</span>out<span class="token punctuation">.</span><span class="token function">println</span><span class="token punctuation">(</span><span class="token string">"Đang đẹp trai"</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
     <span class="token punctuation">}</span>
 <span class="token punctuation">}</span>
 </code></pre></div><ul>
