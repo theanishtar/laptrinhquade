@@ -1,4 +1,4 @@
----
+<!-- ---
 layout: Post
 title: Giới thiệu về cấu trúc dữ liệu và giải thuật
 subtitle: Cấu trúc dữ liệu và giải thuật
@@ -12,7 +12,7 @@ tags:
   - Data structures 
   - Algorithms
   - DSA
----
+--- -->
 
 Cấu trúc dữ liệu và giải thuật là cụm từ đáng sợ nhất của những sinh viên chưa biết tới website này khi học lập trình.
 

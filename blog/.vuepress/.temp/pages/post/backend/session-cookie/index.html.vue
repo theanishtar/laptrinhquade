@@ -1,6 +1,7 @@
 <template><div><p>Trong mô hình <a href="">CSR</a> hay Client-Side-Rendering việc lưu thông tin người dùng thường được xác định thông qua giá trị của Session...</p>
 <!-- more -->
 <p>Vậy Session là gì và Cookie là thế nào? Sao lại phải cần đến tận hai khái niệm cho một công việc</p>
+<p><img src="https://github.com/dangtranhuu/images/blob/main/angurvad/backend/session-cookie/bn.png?raw=true" alt=""></p>
 <h2 id="khai-niem" tabindex="-1"><a class="header-anchor" href="#khai-niem" aria-hidden="true">#</a> Khái niệm</h2>
 <p>Trước hết chúng ta sẽ tìm hiểu về các khái niệm trước và sẽ đi qua từng trường hợp cụ thể nhé!</p>
 <h3 id="session" tabindex="-1"><a class="header-anchor" href="#session" aria-hidden="true">#</a> Session</h3>

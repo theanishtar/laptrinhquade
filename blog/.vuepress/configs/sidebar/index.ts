@@ -53,6 +53,21 @@ export const en: SidebarConfig = {
 		"/github/session6.md",
 		"/github/session7.md",
 		"/github/session8.md",
+	],
+
+
+	// DB
+	// SQL Server
+	"/sql-server/": [
+		"/sql-server/readme.md",
+		"/sql-server/session1.md",
+		"/sql-server/session2.md",
+		"/sql-server/session3.md",
+		"/sql-server/session4.md",
+		"/sql-server/session5.md",
+		"/sql-server/session6.md",
+		"/sql-server/session7.md",
+		"/sql-server/session8.md",
 	]
 
 };

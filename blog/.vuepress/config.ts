@@ -128,7 +128,7 @@ export default defineUserConfig({
 			links: {
 				title: "Công nghệ",
 				subtitle:
-					"When you are looking at the stars, please put the brightest star shining night sky as my soul.",
+					"Các công nghệ mình sẽ hướng dẫn",
 				bgImage: {
 					path: "/img/pages/links.jpg",
 					mask: "rgba(64, 118, 190, 0.5)"
@@ -214,7 +214,7 @@ export default defineUserConfig({
 				icon: "ri-code-s-slash-line",
 				children: [
 					{
-						text: "Lập trình C/C++",
+						text: "Lập trình căn bản",
 						// link: "/docs/intro.md",
 						// icon: "vi-file-type-cpp",
 						children: [
@@ -223,17 +223,17 @@ export default defineUserConfig({
 								link: "/c/",
 								icon: "vi-file-type-cpp"
 							},
-						]
-					},
-					{
-						text: "Lập trình Java",
-						icon: "fa-java",
-						children: [
 							{
 								text: "Lập trình Java Core",
 								link: "/java-core/",
 								icon: "vi-file-type-jar"
 							},
+						]
+					},
+					{
+						text: "Lập trình OOP",
+						icon: "fa-java",
+						children: [
 							{
 								text: "Lập trình Hướng đối tượng với Java",
 								link: "/java-oop/",
@@ -242,15 +242,15 @@ export default defineUserConfig({
 						]
 					},
 					{
-						text: "Lập trình JavaScript",
+						text: "Xây dựng cơ sở dữ liệu",
 						// link: "/docs/intro.md",
-						icon: "vi-file-type-js",
+						icon: "vi-file-type-plsql-package-spec",
 						children: [
-							// {
-							// 	text: "JavaScript cơ bản",
-							// 	link: "/docs/intro.md",
-							// 	icon: "vi-file-type-js"
-							// },
+							{
+								text: "Microsoft SQL Server",
+								link: "/sql-server/",
+								icon: "vi-file-type-sql"
+							},
 							// {
 							// 	text: "JavaScript ES6",
 							// 	link: "/docs/intro.md",

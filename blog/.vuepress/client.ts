@@ -33,7 +33,9 @@ import {
 	ViFileTypeNode,
 	BiFiletypeJava,
 	ViFolderTypeCubitOpened,
-	ViFileTypeHaskell2
+	ViFileTypeHaskell2,
+	ViFileTypeSql,
+	ViFileTypePlsqlPackageSpec
 } from "oh-vue-icons/icons";
 
 addIcons(
@@ -70,7 +72,9 @@ addIcons(
 	ViFileTypeJar,
 	BiFiletypeJava,
 	ViFolderTypeCubitOpened,
-	ViFileTypeHaskell2
+	ViFileTypeHaskell2,
+	ViFileTypeSql,
+	ViFileTypePlsqlPackageSpec
 );
 
 export default defineClientConfig({});

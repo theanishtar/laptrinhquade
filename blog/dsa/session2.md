@@ -1,4 +1,4 @@
----
+<!-- ---
 layout: Post
 title: Cấu trúc danh sách đặc
 subtitle: Cấu trúc dữ liệu và giải thuật
@@ -11,7 +11,8 @@ permalinkPattern: /ebook/dsa/:slug/
 tags:
   - Data structures 
   - DSA
----
+--- -->
+
 
 Danh sách đặc là cấu trúc bạn gặp phải rất nhiều, nhưng có lẽ bạn sẽ không biết nếu chưa học về DSA.
 <!-- more -->

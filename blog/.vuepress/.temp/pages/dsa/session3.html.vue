@@ -1,4 +1,18 @@
-<template><div><p>Danh sách đặc là cấu trúc bạn gặp phải rất nhiều, nhưng có lẽ bạn sẽ không biết nếu chưa học về DSA.</p>
+<template><div><!-- ---
+layout: Post
+title: Danh sách liên kết
+subtitle: Cấu trúc dữ liệu và giải thuật
+author: Theanishtar
+date: 2023-06-11
+useHeaderImage: false
+headerImage: https://github.com/dangtranhuu/images/blob/main/angurvad/dsa/session3/banner.png?raw=true
+headerMask: rgba(39, 64, 112, 0.599)
+permalinkPattern: /ebook/dsa/:slug/
+tags:
+  - Data structures 
+  - DSA
+--- -->
+<p>Danh sách đặc là cấu trúc bạn gặp phải rất nhiều, nhưng có lẽ bạn sẽ không biết nếu chưa học về DSA.</p>
 <!-- more -->
 <hr>
 <h2 id="danh-sach-lien-ket-la-gi" tabindex="-1"><a class="header-anchor" href="#danh-sach-lien-ket-la-gi" aria-hidden="true">#</a> Danh sách liên kết là gì?</h2>

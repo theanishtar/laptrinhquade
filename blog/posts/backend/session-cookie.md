@@ -13,12 +13,15 @@ tags:
   - Authentication
   - Authoriztion
 ---
+	
 
 Trong mô hình [CSR]() hay Client-Side-Rendering việc lưu thông tin người dùng thường được xác định thông qua giá trị của Session...
 
 <!-- more -->
 Vậy Session là gì và Cookie là thế nào? Sao lại phải cần đến tận hai khái niệm cho một công việc
 
+
+![](https://github.com/dangtranhuu/images/blob/main/angurvad/backend/session-cookie/bn.png?raw=true)
 ## Khái niệm
 
 Trước hết chúng ta sẽ tìm hiểu về các khái niệm trước và sẽ đi qua từng trường hợp cụ thể nhé!
