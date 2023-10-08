@@ -40,6 +40,17 @@ export const en: SidebarConfig = {
 		"/nodejs/session7.md",
 		"/nodejs/session8.md",
 	],
+	"/php-core/": [
+		"/php-core/readme.md",
+		"/php-core/session1.md",
+		"/php-core/session2.md",
+		"/php-core/session3.md",
+		"/php-core/session4.md",
+		"/php-core/session5.md",
+		"/php-core/session6.md",
+		"/php-core/session7.md",
+		"/php-core/session8.md",
+	],
 
 	// Tools
 	// Backend

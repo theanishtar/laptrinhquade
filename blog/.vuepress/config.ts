@@ -296,14 +296,19 @@ export default defineUserConfig({
 						icon: "fc-command-line ",
 						children: [
 							{
-								text: "Restful API với NodeJS",
+								text: "NodeJS",
 								link: "/nodejs/",
 								icon: "vi-file-type-node"
 							},
 							{
-								text: "Restful API với SpringBoot",
+								text: "Spring Boot",
 								link: "/docs/intro.md",
 								icon: "co-spring"
+							},
+							{
+								text: "PHP Zero to Hero",
+								link: "/php-core/",
+								icon: "vi-file-type-php2"
 							},
 						]
 					},
@@ -317,7 +322,6 @@ export default defineUserConfig({
 								link: "/docs/intro.md",
 								icon: "vi-folder-type-cubit-opened"
 							},
-
 						]
 					},
 				]

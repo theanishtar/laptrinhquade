@@ -1,4 +1,19 @@
-<template><div><p>Cấu trúc dữ liệu và giải thuật là cụm từ đáng sợ nhất của những sinh viên chưa biết tới website này khi học lập trình.</p>
+<template><div><!-- ---
+layout: Post
+title: Giới thiệu về cấu trúc dữ liệu và giải thuật
+subtitle: Cấu trúc dữ liệu và giải thuật
+author: Theanishtar
+date: 2023-06-21
+useHeaderImage: false
+headerImage: https://github.com/dangtranhuu/images/blob/main/angurvad/dsa/session1/banner.png?raw=true
+headerMask: rgba(39, 64, 112, 0.599)
+permalinkPattern: /ebook/dsa/:slug/
+tags:
+  - Data structures 
+  - Algorithms
+  - DSA
+--- -->
+<p>Cấu trúc dữ liệu và giải thuật là cụm từ đáng sợ nhất của những sinh viên chưa biết tới website này khi học lập trình.</p>
 <!-- more -->
 <hr>
 <p>Cấu trúc dữ liệu và giải thuật là cụm từ đáng sợ nhất của những sinh viên chưa biết tới website này khi học lập trình.</p>

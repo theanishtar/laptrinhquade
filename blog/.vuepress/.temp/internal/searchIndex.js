@@ -127,8 +127,7 @@ export const searchIndex = [
     "extraFields": []
   },
   {
-    "title": "Giới thiệu về cấu trúc dữ liệu và giải thuật",
-    "subtitle": "Cấu trúc dữ liệu và giải thuật",
+    "title": "",
     "headers": [
       {
         "level": 2,
@@ -168,10 +167,9 @@ export const searchIndex = [
         "children": []
       }
     ],
-    "path": "/ebook/dsa/session1/",
+    "path": "/dsa/session1.html",
     "pathLocale": "/",
-    "extraFields": [],
-    "layout": "Post"
+    "extraFields": []
   },
   {
     "title": "",
@@ -379,6 +377,217 @@ export const searchIndex = [
     "title": "Bài 8",
     "headers": [],
     "path": "/github/session8.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "Lời nói đầu",
+    "headers": [],
+    "path": "/java-oop/",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "Bài 1. Lập trình hướng đối tượng",
+    "headers": [
+      {
+        "level": 2,
+        "title": "1. Khái niệm",
+        "slug": "_1-khai-niem",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "2. Phân biệt lập trình cấu trúc và hướng đối tượng",
+        "slug": "_2-phan-biet-lap-trinh-cau-truc-va-huong-đoi-tuong",
+        "children": [
+          {
+            "level": 3,
+            "title": "Lập trình cấu trúc là gì",
+            "slug": "lap-trinh-cau-truc-la-gi",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "Tại sao hướng đối tượng có ưu thế hơn",
+            "slug": "tai-sao-huong-đoi-tuong-co-uu-the-hon",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "3. Lập trình hướng đối tượng",
+        "slug": "_3-lap-trinh-huong-đoi-tuong",
+        "children": [
+          {
+            "level": 3,
+            "title": "Ví dụ:",
+            "slug": "vi-du",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "4. Biểu diễn bằng code",
+        "slug": "_4-bieu-dien-bang-code",
+        "children": [
+          {
+            "level": 3,
+            "title": "Tạo project",
+            "slug": "tao-project",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "Tạo lớp đối tượng",
+            "slug": "tao-lop-đoi-tuong",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "Tạo thuộc tính cho đối tượng",
+            "slug": "tao-thuoc-tinh-cho-đoi-tuong",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "Tạo phương thức cho đối tượng",
+            "slug": "tao-phuong-thuc-cho-đoi-tuong",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "Tạo đối tượng từ lớp khác",
+            "slug": "tao-đoi-tuong-tu-lop-khac",
+            "children": [
+              {
+                "level": 4,
+                "title": "Gọi lại đối tượng",
+                "slug": "goi-lai-đoi-tuong",
+                "children": []
+              },
+              {
+                "level": 4,
+                "title": "Xuất giá trị thuộc tính",
+                "slug": "xuat-gia-tri-thuoc-tinh",
+                "children": []
+              },
+              {
+                "level": 4,
+                "title": "Gọi phương thức của đối tượng",
+                "slug": "goi-phuong-thuc-cua-đoi-tuong",
+                "children": []
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "path": "/java-oop/session1.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "Bài 2. Các tính chất",
+    "headers": [
+      {
+        "level": 2,
+        "title": "1. Khái niệm",
+        "slug": "_1-khai-niem",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "2. Phân biệt lập trình cấu trúc và hướng đối tượng",
+        "slug": "_2-phan-biet-lap-trinh-cau-truc-va-huong-đoi-tuong",
+        "children": [
+          {
+            "level": 3,
+            "title": "Lập trình cấu trúc là gì",
+            "slug": "lap-trinh-cau-truc-la-gi",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "Tại sao hướng đối tượng có ưu thế hơn",
+            "slug": "tai-sao-huong-đoi-tuong-co-uu-the-hon",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "3. Lập trình hướng đối tượng",
+        "slug": "_3-lap-trinh-huong-đoi-tuong",
+        "children": [
+          {
+            "level": 3,
+            "title": "Ví dụ:",
+            "slug": "vi-du",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "4. Biểu diễn bằng code",
+        "slug": "_4-bieu-dien-bang-code",
+        "children": [
+          {
+            "level": 3,
+            "title": "Tạo project",
+            "slug": "tao-project",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "Tạo lớp đối tượng",
+            "slug": "tao-lop-đoi-tuong",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "Tạo thuộc tính cho đối tượng",
+            "slug": "tao-thuoc-tinh-cho-đoi-tuong",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "Tạo phương thức cho đối tượng",
+            "slug": "tao-phuong-thuc-cho-đoi-tuong",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "Tạo đối tượng từ lớp khác",
+            "slug": "tao-đoi-tuong-tu-lop-khac",
+            "children": [
+              {
+                "level": 4,
+                "title": "Gọi lại đối tượng",
+                "slug": "goi-lai-đoi-tuong",
+                "children": []
+              },
+              {
+                "level": 4,
+                "title": "Xuất giá trị thuộc tính",
+                "slug": "xuat-gia-tri-thuoc-tinh",
+                "children": []
+              },
+              {
+                "level": 4,
+                "title": "Gọi phương thức của đối tượng",
+                "slug": "goi-phuong-thuc-cua-đoi-tuong",
+                "children": []
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "path": "/java-oop/session2.html",
     "pathLocale": "/",
     "extraFields": []
   },
@@ -750,6 +959,364 @@ export const searchIndex = [
     "title": "Bài 8. Làm việc với MongoDB",
     "headers": [],
     "path": "/nodejs/session8.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "Lời nói đầu",
+    "headers": [],
+    "path": "/php-core/",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "Bài 1. Giới thiệu về PHP",
+    "headers": [
+      {
+        "level": 2,
+        "title": "Tìm hiểu về Request và Response",
+        "slug": "tim-hieu-ve-request-va-response",
+        "children": []
+      }
+    ],
+    "path": "/php-core/session1.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "Bài 2. Sử dụng các kiểu dữ liệu",
+    "headers": [],
+    "path": "/php-core/session2.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "Bài 3. Hàm và HTML",
+    "headers": [],
+    "path": "/php-core/session3.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "Bài 4. Forms",
+    "headers": [],
+    "path": "/php-core/session4.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "Bài 5. File",
+    "headers": [],
+    "path": "/php-core/session5.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "Bài 6. MySQLi căn bản",
+    "headers": [],
+    "path": "/php-core/session6.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "Bài 7. MySQLi nâng cao",
+    "headers": [],
+    "path": "/php-core/session7.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "Bài 8. Session, Cookie và PDO",
+    "headers": [
+      {
+        "level": 2,
+        "title": "1. Đề bài",
+        "slug": "_1-đe-bai",
+        "children": []
+      }
+    ],
+    "path": "/php-core/session8.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "Lời nói đầu",
+    "headers": [],
+    "path": "/sql-server/",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "Tổng quan về hệ QT-CSDL",
+    "headers": [
+      {
+        "level": 2,
+        "title": "1. Đôi nét về SQL Server",
+        "slug": "_1-đoi-net-ve-sql-server",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "2. Các công cụ sử dụng SQL Server",
+        "slug": "_2-cac-cong-cu-su-dung-sql-server",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "3. Lưu ý khi cài đặt",
+        "slug": "_3-luu-y-khi-cai-đat",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "4. Sql server management studio",
+        "slug": "_4-sql-server-management-studio",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "5. Cài đặt Sql server management studio",
+        "slug": "_5-cai-đat-sql-server-management-studio",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "",
+        "slug": "",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "6. Attach File cơ sở dữ liệu",
+        "slug": "_6-attach-file-co-so-du-lieu",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "7. Detach File cơ sở dữ liệu",
+        "slug": "_7-detach-file-co-so-du-lieu",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "8. Hướng dẫn hiển thị lược đồ CSDL",
+        "slug": "_8-huong-dan-hien-thi-luoc-đo-csdl",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "9. Thao tác với cơ sở dữ liệu trên Query Editor",
+        "slug": "_9-thao-tac-voi-co-so-du-lieu-tren-query-editor",
+        "children": []
+      }
+    ],
+    "path": "/sql-server/session1.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "Tạo CSDL quan hệ và T-SQL",
+    "headers": [
+      {
+        "level": 2,
+        "title": "1. Kiểu dữ liệu",
+        "slug": "_1-kieu-du-lieu",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "2. Tạo CSDL quan hệ",
+        "slug": "_2-tao-csdl-quan-he",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "3. Khái niệm biến",
+        "slug": "_3-khai-niem-bien",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "4. Ngôn ngữ truy vấn T-SQL",
+        "slug": "_4-ngon-ngu-truy-van-t-sql",
+        "children": []
+      }
+    ],
+    "path": "/sql-server/session2.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "Các hàm hệ thống và xử lý chuỗi",
+    "headers": [
+      {
+        "level": 2,
+        "title": "1. Các hàm chuyển đổi kiểu dữ liệu",
+        "slug": "_1-cac-ham-chuyen-đoi-kieu-du-lieu",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "2. Các hàm toán học",
+        "slug": "_2-cac-ham-toan-hoc",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "3. Các hàm xử lý chuỗi",
+        "slug": "_3-cac-ham-xu-ly-chuoi",
+        "children": []
+      }
+    ],
+    "path": "/sql-server/session3.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "Điều kiện và vòng lặp",
+    "headers": [
+      {
+        "level": 2,
+        "title": "1. Các xử lý điều kiện",
+        "slug": "_1-cac-xu-ly-đieu-kien",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "So sánh Simple CASE và Searched CASE",
+        "slug": "so-sanh-simple-case-va-searched-case",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "2. Vòng lặp",
+        "slug": "_2-vong-lap",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "3. Quản lý lỗi",
+        "slug": "_3-quan-ly-loi",
+        "children": []
+      }
+    ],
+    "path": "/sql-server/session4.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "Stored Procedures",
+    "headers": [
+      {
+        "level": 2,
+        "title": "1. Giới thiệu",
+        "slug": "_1-gioi-thieu",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "2. Tạo Stored-procedure",
+        "slug": "_2-tao-stored-procedure",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "3. Cập nhật Store procedure",
+        "slug": "_3-cap-nhat-store-procedure",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "4. Lệnh điều kiện trong điều khiển các rẽ nhánh trong Proc",
+        "slug": "_4-lenh-đieu-kien-trong-đieu-khien-cac-re-nhanh-trong-proc",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "5. Store procedure template",
+        "slug": "_5-store-procedure-template",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "6. Kiến thức thêm",
+        "slug": "_6-kien-thuc-them",
+        "children": []
+      }
+    ],
+    "path": "/sql-server/session5.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "Trigger",
+    "headers": [
+      {
+        "level": 2,
+        "title": "1. Giới thiệu về Trigger",
+        "slug": "_1-gioi-thieu-ve-trigger",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "2. Tạo trigger DML",
+        "slug": "_2-tao-trigger-dml",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "3. Trigger AFTER",
+        "slug": "_3-trigger-after",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "4. Trigger INSTEAD OF",
+        "slug": "_4-trigger-instead-of",
+        "children": []
+      }
+    ],
+    "path": "/sql-server/session6.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "Function và View",
+    "headers": [
+      {
+        "level": 2,
+        "title": "1. Hàm người dùng định nghĩa",
+        "slug": "_1-ham-nguoi-dung-đinh-nghia",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "2. Lợi ích của VIEW",
+        "slug": "_2-loi-ich-cua-view",
+        "children": []
+      }
+    ],
+    "path": "/sql-server/session7.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "Sao lưu và phục hồi CSDL",
+    "headers": [
+      {
+        "level": 2,
+        "title": "1. Sao lưu CSDL",
+        "slug": "_1-sao-luu-csdl",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "2. Đặt lịch sao lưu tự động",
+        "slug": "_2-đat-lich-sao-luu-tu-đong",
+        "children": []
+      }
+    ],
+    "path": "/sql-server/session8.html",
     "pathLocale": "/",
     "extraFields": []
   },
@@ -1441,498 +2008,6 @@ export const searchIndex = [
     "extraFields": []
   },
   {
-    "title": "Lời nói đầu",
-    "headers": [],
-    "path": "/java-oop/",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "Bài 1. Lập trình hướng đối tượng",
-    "headers": [
-      {
-        "level": 2,
-        "title": "1. Khái niệm",
-        "slug": "_1-khai-niem",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "2. Phân biệt lập trình cấu trúc và hướng đối tượng",
-        "slug": "_2-phan-biet-lap-trinh-cau-truc-va-huong-đoi-tuong",
-        "children": [
-          {
-            "level": 3,
-            "title": "Lập trình cấu trúc là gì",
-            "slug": "lap-trinh-cau-truc-la-gi",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "Tại sao hướng đối tượng có ưu thế hơn",
-            "slug": "tai-sao-huong-đoi-tuong-co-uu-the-hon",
-            "children": []
-          }
-        ]
-      },
-      {
-        "level": 2,
-        "title": "3. Lập trình hướng đối tượng",
-        "slug": "_3-lap-trinh-huong-đoi-tuong",
-        "children": [
-          {
-            "level": 3,
-            "title": "Ví dụ:",
-            "slug": "vi-du",
-            "children": []
-          }
-        ]
-      },
-      {
-        "level": 2,
-        "title": "4. Biểu diễn bằng code",
-        "slug": "_4-bieu-dien-bang-code",
-        "children": [
-          {
-            "level": 3,
-            "title": "Tạo project",
-            "slug": "tao-project",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "Tạo lớp đối tượng",
-            "slug": "tao-lop-đoi-tuong",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "Tạo thuộc tính cho đối tượng",
-            "slug": "tao-thuoc-tinh-cho-đoi-tuong",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "Tạo phương thức cho đối tượng",
-            "slug": "tao-phuong-thuc-cho-đoi-tuong",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "Tạo đối tượng từ lớp khác",
-            "slug": "tao-đoi-tuong-tu-lop-khac",
-            "children": [
-              {
-                "level": 4,
-                "title": "Gọi lại đối tượng",
-                "slug": "goi-lai-đoi-tuong",
-                "children": []
-              },
-              {
-                "level": 4,
-                "title": "Xuất giá trị thuộc tính",
-                "slug": "xuat-gia-tri-thuoc-tinh",
-                "children": []
-              },
-              {
-                "level": 4,
-                "title": "Gọi phương thức của đối tượng",
-                "slug": "goi-phuong-thuc-cua-đoi-tuong",
-                "children": []
-              }
-            ]
-          }
-        ]
-      }
-    ],
-    "path": "/java-oop/session1.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "Bài 2. Các tính chất",
-    "headers": [
-      {
-        "level": 2,
-        "title": "1. Khái niệm",
-        "slug": "_1-khai-niem",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "2. Phân biệt lập trình cấu trúc và hướng đối tượng",
-        "slug": "_2-phan-biet-lap-trinh-cau-truc-va-huong-đoi-tuong",
-        "children": [
-          {
-            "level": 3,
-            "title": "Lập trình cấu trúc là gì",
-            "slug": "lap-trinh-cau-truc-la-gi",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "Tại sao hướng đối tượng có ưu thế hơn",
-            "slug": "tai-sao-huong-đoi-tuong-co-uu-the-hon",
-            "children": []
-          }
-        ]
-      },
-      {
-        "level": 2,
-        "title": "3. Lập trình hướng đối tượng",
-        "slug": "_3-lap-trinh-huong-đoi-tuong",
-        "children": [
-          {
-            "level": 3,
-            "title": "Ví dụ:",
-            "slug": "vi-du",
-            "children": []
-          }
-        ]
-      },
-      {
-        "level": 2,
-        "title": "4. Biểu diễn bằng code",
-        "slug": "_4-bieu-dien-bang-code",
-        "children": [
-          {
-            "level": 3,
-            "title": "Tạo project",
-            "slug": "tao-project",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "Tạo lớp đối tượng",
-            "slug": "tao-lop-đoi-tuong",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "Tạo thuộc tính cho đối tượng",
-            "slug": "tao-thuoc-tinh-cho-đoi-tuong",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "Tạo phương thức cho đối tượng",
-            "slug": "tao-phuong-thuc-cho-đoi-tuong",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "Tạo đối tượng từ lớp khác",
-            "slug": "tao-đoi-tuong-tu-lop-khac",
-            "children": [
-              {
-                "level": 4,
-                "title": "Gọi lại đối tượng",
-                "slug": "goi-lai-đoi-tuong",
-                "children": []
-              },
-              {
-                "level": 4,
-                "title": "Xuất giá trị thuộc tính",
-                "slug": "xuat-gia-tri-thuoc-tinh",
-                "children": []
-              },
-              {
-                "level": 4,
-                "title": "Gọi phương thức của đối tượng",
-                "slug": "goi-phuong-thuc-cua-đoi-tuong",
-                "children": []
-              }
-            ]
-          }
-        ]
-      }
-    ],
-    "path": "/java-oop/session2.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "Lời nói đầu",
-    "headers": [],
-    "path": "/sql-server/",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "Tổng quan về hệ QT-CSDL",
-    "headers": [
-      {
-        "level": 2,
-        "title": "1. Đôi nét về SQL Server",
-        "slug": "_1-đoi-net-ve-sql-server",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "2. Các công cụ sử dụng SQL Server",
-        "slug": "_2-cac-cong-cu-su-dung-sql-server",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "3. Lưu ý khi cài đặt",
-        "slug": "_3-luu-y-khi-cai-đat",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "4. Sql server management studio",
-        "slug": "_4-sql-server-management-studio",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "5. Cài đặt Sql server management studio",
-        "slug": "_5-cai-đat-sql-server-management-studio",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "",
-        "slug": "",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "6. Attach File cơ sở dữ liệu",
-        "slug": "_6-attach-file-co-so-du-lieu",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "7. Detach File cơ sở dữ liệu",
-        "slug": "_7-detach-file-co-so-du-lieu",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "8. Hướng dẫn hiển thị lược đồ CSDL",
-        "slug": "_8-huong-dan-hien-thi-luoc-đo-csdl",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "9. Thao tác với cơ sở dữ liệu trên Query Editor",
-        "slug": "_9-thao-tac-voi-co-so-du-lieu-tren-query-editor",
-        "children": []
-      }
-    ],
-    "path": "/sql-server/session1.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "Tạo CSDL quan hệ và T-SQL",
-    "headers": [
-      {
-        "level": 2,
-        "title": "1. Kiểu dữ liệu",
-        "slug": "_1-kieu-du-lieu",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "2. Tạo CSDL quan hệ",
-        "slug": "_2-tao-csdl-quan-he",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "3. Khái niệm biến",
-        "slug": "_3-khai-niem-bien",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "4. Ngôn ngữ truy vấn T-SQL",
-        "slug": "_4-ngon-ngu-truy-van-t-sql",
-        "children": []
-      }
-    ],
-    "path": "/sql-server/session2.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "Các hàm hệ thống và xử lý chuỗi",
-    "headers": [
-      {
-        "level": 2,
-        "title": "1. Các hàm chuyển đổi kiểu dữ liệu",
-        "slug": "_1-cac-ham-chuyen-đoi-kieu-du-lieu",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "2. Các hàm toán học",
-        "slug": "_2-cac-ham-toan-hoc",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "3. Các hàm xử lý chuỗi",
-        "slug": "_3-cac-ham-xu-ly-chuoi",
-        "children": []
-      }
-    ],
-    "path": "/sql-server/session3.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "Điều kiện và vòng lặp",
-    "headers": [
-      {
-        "level": 2,
-        "title": "1. Các xử lý điều kiện",
-        "slug": "_1-cac-xu-ly-đieu-kien",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "So sánh Simple CASE và Searched CASE",
-        "slug": "so-sanh-simple-case-va-searched-case",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "2. Vòng lặp",
-        "slug": "_2-vong-lap",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "3. Quản lý lỗi",
-        "slug": "_3-quan-ly-loi",
-        "children": []
-      }
-    ],
-    "path": "/sql-server/session4.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "Stored Procedures",
-    "headers": [
-      {
-        "level": 2,
-        "title": "1. Giới thiệu",
-        "slug": "_1-gioi-thieu",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "2. Tạo Stored-procedure",
-        "slug": "_2-tao-stored-procedure",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "3. Cập nhật Store procedure",
-        "slug": "_3-cap-nhat-store-procedure",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "4. Lệnh điều kiện trong điều khiển các rẽ nhánh trong Proc",
-        "slug": "_4-lenh-đieu-kien-trong-đieu-khien-cac-re-nhanh-trong-proc",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "5. Store procedure template",
-        "slug": "_5-store-procedure-template",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "6. Kiến thức thêm",
-        "slug": "_6-kien-thuc-them",
-        "children": []
-      }
-    ],
-    "path": "/sql-server/session5.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "Trigger",
-    "headers": [
-      {
-        "level": 2,
-        "title": "1. Giới thiệu về Trigger",
-        "slug": "_1-gioi-thieu-ve-trigger",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "2. Tạo trigger DML",
-        "slug": "_2-tao-trigger-dml",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "3. Trigger AFTER",
-        "slug": "_3-trigger-after",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "4. Trigger INSTEAD OF",
-        "slug": "_4-trigger-instead-of",
-        "children": []
-      }
-    ],
-    "path": "/sql-server/session6.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "Function và View",
-    "headers": [
-      {
-        "level": 2,
-        "title": "1. Hàm người dùng định nghĩa",
-        "slug": "_1-ham-nguoi-dung-đinh-nghia",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "2. Lợi ích của VIEW",
-        "slug": "_2-loi-ich-cua-view",
-        "children": []
-      }
-    ],
-    "path": "/sql-server/session7.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "Sao lưu và phục hồi CSDL",
-    "headers": [
-      {
-        "level": 2,
-        "title": "1. Sao lưu CSDL",
-        "slug": "_1-sao-luu-csdl",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "2. Đặt lịch sao lưu tự động",
-        "slug": "_2-đat-lich-sao-luu-tu-đong",
-        "children": []
-      }
-    ],
-    "path": "/sql-server/session8.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
     "title": "Links",
     "headers": [],
     "path": "/tech/",
@@ -2031,30 +2106,6 @@ export const searchIndex = [
     "layout": "HomePage"
   },
   {
-    "title": "Data structures | Tags",
-    "headers": [],
-    "path": "/tags/data-structures/",
-    "pathLocale": "/",
-    "extraFields": [],
-    "layout": "Tags"
-  },
-  {
-    "title": "Algorithms | Tags",
-    "headers": [],
-    "path": "/tags/algorithms/",
-    "pathLocale": "/",
-    "extraFields": [],
-    "layout": "Tags"
-  },
-  {
-    "title": "DSA | Tags",
-    "headers": [],
-    "path": "/tags/dsa/",
-    "pathLocale": "/",
-    "extraFields": [],
-    "layout": "Tags"
-  },
-  {
     "title": "Backend | Tags",
     "headers": [],
     "path": "/tags/backend/",
@@ -2087,3 +2138,16 @@ export const searchIndex = [
     "layout": "HomePage"
   }
 ]
+
+if (import.meta.webpackHot) {
+  import.meta.webpackHot.accept()
+  if (__VUE_HMR_RUNTIME__.updateSearchIndex) {
+    __VUE_HMR_RUNTIME__.updateSearchIndex(searchIndex)
+  }
+}
+
+if (import.meta.hot) {
+  import.meta.hot.accept(({ searchIndex }) => {
+    __VUE_HMR_RUNTIME__.updateSearchIndex(searchIndex)
+  })
+}

@@ -1,4 +1,4 @@
-export const categoryMap = {"tag":{"/":{"path":"/tags/","map":{"Data structures":{"path":"/tags/data-structures/","keys":["v-5663e3fd"]},"Algorithms":{"path":"/tags/algorithms/","keys":["v-5663e3fd"]},"DSA":{"path":"/tags/dsa/","keys":["v-5663e3fd"]},"Backend":{"path":"/tags/backend/","keys":["v-77e2f3a3"]},"Authentication":{"path":"/tags/authentication/","keys":["v-77e2f3a3"]},"Authoriztion":{"path":"/tags/authoriztion/","keys":["v-77e2f3a3"]}}}}}
+export const categoryMap = {"tag":{"/":{"path":"/tags/","map":{"Backend":{"path":"/tags/backend/","keys":["v-77e2f3a3"]},"Authentication":{"path":"/tags/authentication/","keys":["v-77e2f3a3"]},"Authoriztion":{"path":"/tags/authoriztion/","keys":["v-77e2f3a3"]}}}}}
 
 if (import.meta.webpackHot) {
   import.meta.webpackHot.accept()

@@ -1,1 +1,0 @@
-export const data = JSON.parse("{\"key\":\"v-cd256bcc\",\"path\":\"/tags/dsa/\",\"title\":\"DSA | Tags\",\"lang\":\"en-US\",\"frontmatter\":{\"title\":\"DSA | Tags\",\"layout\":\"Tags\",\"blog\":{\"type\":\"category\",\"name\":\"DSA\",\"key\":\"tag\"}},\"excerpt\":\"\",\"headers\":[],\"git\":{},\"filePathRelative\":null}")
