@@ -16,6 +16,9 @@ Nếu bạn đang tìm hiểu về cách làm việc hiệu quả hơn với Git
 Chúc bạn đọc cuốn sách vui vẻ và thành công trong việc làm việc với Git, GitHub và GitHub Desktop!
 
 Trân trọng!
+
+
+![Tạo repo GitHub](https://github.com/dangtranhuu/images/blob/main/angurvad/github/banner.png?raw=true)
 # Tác giả
 | Tác giả | Nội dung     | Số bài giảng | Công cụ cần có | Hình ảnh |
 |--------|-------------|---------|-----------|----------|

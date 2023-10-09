@@ -8,6 +8,7 @@
 <p>Nếu bạn đang tìm hiểu về cách làm việc hiệu quả hơn với Git, GitHub và GitHub Desktop, thì cuốn ebook này dành cho bạn. Hãy cùng chúng tôi khám phá cách sử dụng các công cụ này để tạo ra các dự án phần mềm tốt hơn và làm việc một cách hiệu quả hơn trong các dự án lập trình của bạn.</p>
 <p>Chúc bạn đọc cuốn sách vui vẻ và thành công trong việc làm việc với Git, GitHub và GitHub Desktop!</p>
 <p>Trân trọng!</p>
+<p><img src="https://github.com/dangtranhuu/images/blob/main/angurvad/github/banner.png?raw=true" alt="Tạo repo GitHub"></p>
 <h1 id="tac-gia" tabindex="-1"><a class="header-anchor" href="#tac-gia" aria-hidden="true">#</a> Tác giả</h1>
 <table>
 <thead>

@@ -11,12 +11,6 @@ export const pagesComponents = {
   "v-a05b9af2": defineAsyncComponent(() => import(/* webpackChunkName: "v-a05b9af2" */"C:/git-desktop/laptrinhquade/blog/.vuepress/.temp/pages/dsa/session2.html.vue")),
   // path: /dsa/session3.html
   "v-9cf1e9b4": defineAsyncComponent(() => import(/* webpackChunkName: "v-9cf1e9b4" */"C:/git-desktop/laptrinhquade/blog/.vuepress/.temp/pages/dsa/session3.html.vue")),
-  // path: /java-oop/
-  "v-6d2014de": defineAsyncComponent(() => import(/* webpackChunkName: "v-6d2014de" */"C:/git-desktop/laptrinhquade/blog/.vuepress/.temp/pages/java-oop/index.html.vue")),
-  // path: /java-oop/session1.html
-  "v-2d29cf6d": defineAsyncComponent(() => import(/* webpackChunkName: "v-2d29cf6d" */"C:/git-desktop/laptrinhquade/blog/.vuepress/.temp/pages/java-oop/session1.html.vue")),
-  // path: /java-oop/session2.html
-  "v-2edea80c": defineAsyncComponent(() => import(/* webpackChunkName: "v-2edea80c" */"C:/git-desktop/laptrinhquade/blog/.vuepress/.temp/pages/java-oop/session2.html.vue")),
   // path: /github/
   "v-6c67d393": defineAsyncComponent(() => import(/* webpackChunkName: "v-6c67d393" */"C:/git-desktop/laptrinhquade/blog/.vuepress/.temp/pages/github/index.html.vue")),
   // path: /github/session1.html
@@ -71,6 +65,12 @@ export const pagesComponents = {
   "v-adff6d66": defineAsyncComponent(() => import(/* webpackChunkName: "v-adff6d66" */"C:/git-desktop/laptrinhquade/blog/.vuepress/.temp/pages/nodejs/session7.html.vue")),
   // path: /nodejs/session8.html
   "v-aa95bc28": defineAsyncComponent(() => import(/* webpackChunkName: "v-aa95bc28" */"C:/git-desktop/laptrinhquade/blog/.vuepress/.temp/pages/nodejs/session8.html.vue")),
+  // path: /java-oop/
+  "v-6d2014de": defineAsyncComponent(() => import(/* webpackChunkName: "v-6d2014de" */"C:/git-desktop/laptrinhquade/blog/.vuepress/.temp/pages/java-oop/index.html.vue")),
+  // path: /java-oop/session1.html
+  "v-2d29cf6d": defineAsyncComponent(() => import(/* webpackChunkName: "v-2d29cf6d" */"C:/git-desktop/laptrinhquade/blog/.vuepress/.temp/pages/java-oop/session1.html.vue")),
+  // path: /java-oop/session2.html
+  "v-2edea80c": defineAsyncComponent(() => import(/* webpackChunkName: "v-2edea80c" */"C:/git-desktop/laptrinhquade/blog/.vuepress/.temp/pages/java-oop/session2.html.vue")),
   // path: /php-core/
   "v-f1eb35fc": defineAsyncComponent(() => import(/* webpackChunkName: "v-f1eb35fc" */"C:/git-desktop/laptrinhquade/blog/.vuepress/.temp/pages/php-core/index.html.vue")),
   // path: /php-core/session1.html

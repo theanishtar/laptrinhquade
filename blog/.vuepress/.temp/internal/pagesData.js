@@ -9,12 +9,6 @@ export const pagesData = {
   "v-a05b9af2": () => import(/* webpackChunkName: "v-a05b9af2" */"C:/git-desktop/laptrinhquade/blog/.vuepress/.temp/pages/dsa/session2.html.js").then(({ data }) => data),
   // path: /dsa/session3.html
   "v-9cf1e9b4": () => import(/* webpackChunkName: "v-9cf1e9b4" */"C:/git-desktop/laptrinhquade/blog/.vuepress/.temp/pages/dsa/session3.html.js").then(({ data }) => data),
-  // path: /java-oop/
-  "v-6d2014de": () => import(/* webpackChunkName: "v-6d2014de" */"C:/git-desktop/laptrinhquade/blog/.vuepress/.temp/pages/java-oop/index.html.js").then(({ data }) => data),
-  // path: /java-oop/session1.html
-  "v-2d29cf6d": () => import(/* webpackChunkName: "v-2d29cf6d" */"C:/git-desktop/laptrinhquade/blog/.vuepress/.temp/pages/java-oop/session1.html.js").then(({ data }) => data),
-  // path: /java-oop/session2.html
-  "v-2edea80c": () => import(/* webpackChunkName: "v-2edea80c" */"C:/git-desktop/laptrinhquade/blog/.vuepress/.temp/pages/java-oop/session2.html.js").then(({ data }) => data),
   // path: /github/
   "v-6c67d393": () => import(/* webpackChunkName: "v-6c67d393" */"C:/git-desktop/laptrinhquade/blog/.vuepress/.temp/pages/github/index.html.js").then(({ data }) => data),
   // path: /github/session1.html
@@ -69,6 +63,12 @@ export const pagesData = {
   "v-adff6d66": () => import(/* webpackChunkName: "v-adff6d66" */"C:/git-desktop/laptrinhquade/blog/.vuepress/.temp/pages/nodejs/session7.html.js").then(({ data }) => data),
   // path: /nodejs/session8.html
   "v-aa95bc28": () => import(/* webpackChunkName: "v-aa95bc28" */"C:/git-desktop/laptrinhquade/blog/.vuepress/.temp/pages/nodejs/session8.html.js").then(({ data }) => data),
+  // path: /java-oop/
+  "v-6d2014de": () => import(/* webpackChunkName: "v-6d2014de" */"C:/git-desktop/laptrinhquade/blog/.vuepress/.temp/pages/java-oop/index.html.js").then(({ data }) => data),
+  // path: /java-oop/session1.html
+  "v-2d29cf6d": () => import(/* webpackChunkName: "v-2d29cf6d" */"C:/git-desktop/laptrinhquade/blog/.vuepress/.temp/pages/java-oop/session1.html.js").then(({ data }) => data),
+  // path: /java-oop/session2.html
+  "v-2edea80c": () => import(/* webpackChunkName: "v-2edea80c" */"C:/git-desktop/laptrinhquade/blog/.vuepress/.temp/pages/java-oop/session2.html.js").then(({ data }) => data),
   // path: /php-core/
   "v-f1eb35fc": () => import(/* webpackChunkName: "v-f1eb35fc" */"C:/git-desktop/laptrinhquade/blog/.vuepress/.temp/pages/php-core/index.html.js").then(({ data }) => data),
   // path: /php-core/session1.html
