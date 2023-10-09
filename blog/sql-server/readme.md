@@ -18,6 +18,7 @@ Chúc bạn may mắn và thành công trong việc học tập và làm việc 
 
 Trân trọng,
 
+![Tạo repo GitHub](https://github.com/dangtranhuu/images/blob/main/angurvad/sql-server/banner.png?raw=true)
 # Tác giả
 | Tác giả | Nội dung     | Số bài giảng | Công cụ cần có | Hình ảnh |
 |--------|-------------|---------|-----------|----------|

@@ -1,6 +1,17 @@
 # Lời nói đầu
-Chào mừng bạn đến với cuốn eBook "Hướng Dẫn Xây dựng RestfulAPI với NodeJS" Cuốn sách này được viết đặc biệt cho những người mới tiếp xúc với ngôn ngữ lập trình Back-end hoặc muốn xây dựng ứng dụng backend web. Với sự hướng dẫn chi tiết, ví dụ minh họa cụ thể, và bài tập thực hành, cuốn sách sẽ giúp bạn xây dựng nền tảng vững chắc trong lập trình NodeJS với ExpressJS và trải qua một hành trình học tập thú vị.
+Chào mọi người,
 
+Trong thế kỷ 21, ngôn ngữ lập trình JavaScript đã trở thành một phần quan trọng không thể thiếu trong ngành công nghiệp phát triển phần mềm. Được biết đến ban đầu là một ngôn ngữ chủ đạo cho việc xây dựng các ứng dụng web tương tác trên trình duyệt, JavaScript đã phát triển mạnh mẽ và bây giờ được sử dụng trên cả phía máy chủ thông qua Node.js. Node.js là một nền tảng mở cho việc xây dựng các ứng dụng máy chủ và dựa trên JavaScript.
+
+Cuốn eBook này sẽ đưa bạn vào thế giới của Node.js và hướng dẫn bạn từng bước cách lập trình với ngôn ngữ này. Dù bạn là một người mới bắt đầu hoặc đã có kinh nghiệm lập trình, chúng tôi hy vọng rằng bạn sẽ tìm thấy nội dung trong cuốn sách này hữu ích để bắt đầu xây dựng các ứng dụng máy chủ mạnh mẽ bằng Node.js.
+
+Chúng tôi sẽ bắt đầu với các khái niệm cơ bản của Node.js và sau đó dẫn dắt bạn qua các chủ đề nâng cao như xử lý bất đồng bộ, tạo API, kết nối cơ sở dữ liệu, và nhiều khía cạnh khác của lập trình Node.js. Cuối cùng, bạn sẽ có kiến thức và kỹ năng cần thiết để xây dựng các ứng dụng máy chủ linh hoạt và hiệu quả sử dụng Node.js.
+
+Node.js không chỉ là một công cụ mạnh mẽ cho lập trình máy chủ, mà còn là cơ hội để bạn thách thức bản thân và tham gia vào một cộng đồng lập trình đang phát triển nhanh chóng. Hy vọng rằng sau khi đọc cuốn sách này, bạn sẽ tự tin hơn để khám phá và sáng tạo trong thế giới của Node.js.
+
+Chúc bạn đọc cuốn sách vui vẻ và thành công trong hành trình lập trình Node.js của mình!
+
+Trân trọng,
 
 ![Tạo repo GitHub](https://github.com/dangtranhuu/images/blob/main/angurvad/nodejs/banner.png?raw=true)
 

@@ -1,6 +1,8 @@
 # Lời nói đầu
 Chào mừng bạn đến với cuốn eBook "Hướng Dẫn Lập Trình Java Cho Người Mới Bắt Đầu." Cuốn sách này được viết đặc biệt cho những người mới tiếp xúc với ngôn ngữ lập trình Java hoặc lập trình nói chung. Với sự hướng dẫn chi tiết, ví dụ minh họa cụ thể, và bài tập thực hành, cuốn sách sẽ giúp bạn xây dựng nền tảng vững chắc trong lập trình Java và trải qua một hành trình học tập thú vị.
 
+
+![Tạo repo GitHub](https://github.com/dangtranhuu/images/blob/main/angurvad/java-core/banner2.png?raw=true)
 # Tác giả
 | Tác giả | Nội dung     | Số bài giảng | Công cụ cần có | Hình ảnh |
 |--------|-------------|---------|-----------|----------|

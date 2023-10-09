@@ -11,6 +11,7 @@ Chúng tôi đã tổ chức tài liệu và hướng dẫn thành từng phần
 <p>Nếu bạn có bất kỳ câu hỏi hoặc ý kiến đóng góp, xin vui lòng liên hệ với chúng tôi. Chúng tôi luôn sẵn sàng hỗ trợ bạn.</p>
 <p>Chúc bạn may mắn và thành công trong việc học tập và làm việc với SQL Server!</p>
 <p>Trân trọng,</p>
+<p><img src="https://github.com/dangtranhuu/images/blob/main/angurvad/sql-server/banner.png?raw=true" alt="Tạo repo GitHub"></p>
 <h1 id="tac-gia" tabindex="-1"><a class="header-anchor" href="#tac-gia" aria-hidden="true">#</a> Tác giả</h1>
 <table>
 <thead>

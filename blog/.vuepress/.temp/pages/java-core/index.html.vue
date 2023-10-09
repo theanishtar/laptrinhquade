@@ -1,5 +1,6 @@
 <template><div><h1 id="loi-noi-đau" tabindex="-1"><a class="header-anchor" href="#loi-noi-đau" aria-hidden="true">#</a> Lời nói đầu</h1>
 <p>Chào mừng bạn đến với cuốn eBook &quot;Hướng Dẫn Lập Trình Java Cho Người Mới Bắt Đầu.&quot; Cuốn sách này được viết đặc biệt cho những người mới tiếp xúc với ngôn ngữ lập trình Java hoặc lập trình nói chung. Với sự hướng dẫn chi tiết, ví dụ minh họa cụ thể, và bài tập thực hành, cuốn sách sẽ giúp bạn xây dựng nền tảng vững chắc trong lập trình Java và trải qua một hành trình học tập thú vị.</p>
+<p><img src="https://github.com/dangtranhuu/images/blob/main/angurvad/java-core/banner2.png?raw=true" alt="Tạo repo GitHub"></p>
 <h1 id="tac-gia" tabindex="-1"><a class="header-anchor" href="#tac-gia" aria-hidden="true">#</a> Tác giả</h1>
 <table>
 <thead>
