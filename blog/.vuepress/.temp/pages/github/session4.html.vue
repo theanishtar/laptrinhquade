@@ -1,4 +1,4 @@
-<template><div><h1 id="bai-4-lam-viec-nhom-voi-github" tabindex="-1"><a class="header-anchor" href="#bai-4-lam-viec-nhom-voi-github" aria-hidden="true">#</a> Bài 4 Làm việc nhóm với GitHub</h1>
+<template><div><h1 id="bai-4-lam-viec-nhom" tabindex="-1"><a class="header-anchor" href="#bai-4-lam-viec-nhom" aria-hidden="true">#</a> Bài 4 Làm việc nhóm</h1>
 <p>Làm việc nhóm với Git là một phần quan trọng trong quá trình phát triển phần mềm hoặc dự án công nghệ thông tin.</p>
 <p>Trong bài viết này chúng ta sẽ cùng tìm hiểu về quá trình làm việc nhóm với Git</p>
 <h2 id="quy-trinh-lam-viec" tabindex="-1"><a class="header-anchor" href="#quy-trinh-lam-viec" aria-hidden="true">#</a> Quy trình làm việc</h2>

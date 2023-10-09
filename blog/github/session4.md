@@ -1,4 +1,4 @@
-# Bài 4 Làm việc nhóm với GitHub
+# Bài 4 Làm việc nhóm
 
 Làm việc nhóm với Git là một phần quan trọng trong quá trình phát triển phần mềm hoặc dự án công nghệ thông tin. 
 

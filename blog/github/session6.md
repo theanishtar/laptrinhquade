@@ -1,5 +1,3 @@
-
-
-# Bài 6
+# Bài 6. Thao tác bằng GitHub Desktop
 
 Chưa cập nhật

@@ -1,6 +1,13 @@
 <template><div><h1 id="loi-noi-đau" tabindex="-1"><a class="header-anchor" href="#loi-noi-đau" aria-hidden="true">#</a> Lời nói đầu</h1>
-<p>Chào mừng bạn đến với cuốn eBook &quot;Hướng Dẫn Quản lí mã nguồn với Git/GitHub&quot;</p>
-<p>Cuốn sách này được viết đặc biệt cho những người mới tiếp xúc với lập trình hoặc muốn quản lí mã nguồn</p>
+<p>Chào mọi người,</p>
+<p>Chắc chắn rằng bạn đã từng trải qua tình huống này: Bạn đang làm việc trên một dự án phần mềm hoặc công việc lập trình nào đó, và bạn thấy mình đang bị lạc hậu khi phải quản lý mã nguồn và hợp nhất sự làm việc của nhiều thành viên trong nhóm. Đây là nơi mà Git, GitHub và GitHub Desktop trở thành những người bạn đồng hành quan trọng.</p>
+<p>Git là một hệ thống quản lý phiên bản phổ biến và mạnh mẽ, cho phép bạn theo dõi lịch sử thay đổi của mã nguồn của bạn, làm việc trên nhiều phiên bản khác nhau cùng một lúc, và hợp nhất các thay đổi từ nhiều thành viên trong nhóm một cách hiệu quả.</p>
+<p>GitHub là một dịch vụ lưu trữ mã nguồn trực tuyến phổ biến, giúp bạn lưu trữ mã nguồn của bạn, theo dõi dự án, và cộng tác với các thành viên khác trên một giao diện trực quan.</p>
+<p>GitHub Desktop là một ứng dụng đồ họa dễ sử dụng, cho phép bạn quản lý mã nguồn và dự án GitHub của bạn một cách thân thiện với người dùng.</p>
+<p>Cuốn ebook này sẽ hướng dẫn bạn từng bước cơ bản về cách sử dụng Git, GitHub và GitHub Desktop. Dù bạn là một lập trình viên mới hoặc đã có kinh nghiệm, chúng tôi hy vọng rằng bạn sẽ tìm thấy nội dung trong cuốn sách này hữu ích để nắm bắt các khái niệm cơ bản và phát triển kỹ năng quản lý mã nguồn của mình.</p>
+<p>Nếu bạn đang tìm hiểu về cách làm việc hiệu quả hơn với Git, GitHub và GitHub Desktop, thì cuốn ebook này dành cho bạn. Hãy cùng chúng tôi khám phá cách sử dụng các công cụ này để tạo ra các dự án phần mềm tốt hơn và làm việc một cách hiệu quả hơn trong các dự án lập trình của bạn.</p>
+<p>Chúc bạn đọc cuốn sách vui vẻ và thành công trong việc làm việc với Git, GitHub và GitHub Desktop!</p>
+<p>Trân trọng!</p>
 <h1 id="tac-gia" tabindex="-1"><a class="header-anchor" href="#tac-gia" aria-hidden="true">#</a> Tác giả</h1>
 <table>
 <thead>

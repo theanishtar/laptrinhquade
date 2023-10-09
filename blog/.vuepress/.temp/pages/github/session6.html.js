@@ -1,4 +1,4 @@
-export const data = JSON.parse("{\"key\":\"v-74ae7fc6\",\"path\":\"/github/session6.html\",\"title\":\"Bài 6\",\"lang\":\"en-US\",\"frontmatter\":{},\"excerpt\":\"\",\"headers\":[],\"readingTime\":{\"minutes\":1,\"words\":9},\"filePathRelative\":\"github/session6.md\"}")
+export const data = JSON.parse("{\"key\":\"v-74ae7fc6\",\"path\":\"/github/session6.html\",\"title\":\"Bài 6. Thao tác bằng GitHub Desktop\",\"lang\":\"en-US\",\"frontmatter\":{},\"excerpt\":\"\",\"headers\":[],\"readingTime\":{\"minutes\":1,\"words\":16},\"filePathRelative\":\"github/session6.md\"}")
 
 if (import.meta.webpackHot) {
   import.meta.webpackHot.accept()
